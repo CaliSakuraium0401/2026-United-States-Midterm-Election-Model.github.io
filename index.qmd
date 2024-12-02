@@ -1,0 +1,32 @@
+---
+title: "2026 United States Midterm Election Model"
+subtitle: "Analysis of Polls and Trends"
+author: "CaliSakuraium"
+date: "`r Sys.Date()`"
+format:
+  html:
+    #code-fold: true
+    #code-tools: true
+    df-print: paged
+    code-line-numbers: true
+    toc: true
+editor: visual
+execute:
+  warning: false
+  message: false
+  keep-md: false
+  echo: false
+---
+
+```{r, results='hide'}
+#| label: load-packages
+library(dplyr)
+library(ggplot2)
+library(ggthemes)
+library(tidyverse)
+library(tidyr)
+library(readxl)
+library(sf)
+library(rmapshaper)
+library(USAboundaries)
+```
