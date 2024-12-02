@@ -37,14 +37,18 @@ All 435 House seats will be up for election, along with delegates for D.C. and f
 ```{r, results='hide'}
 #| label: load_spacial_data
 us_states <- us_states()
-us_congressional_2022 <- st_read(file.path("spacial/congressional_districts.shp"))
+us_congressional_2022 <- as_tibble(st_read(file.path("spacial/congressional_districts.shp")))
 ```
 
 ```{r, results='hide'}
 #| label: load_polling_data
 
 house_polling <- read_csv("polling/house_polls.csv") |>
-  select(pollster, numeric_grade, pollscore, state, start_date, end_date, sample_size, population, internal, partisan, seat_number, party, answer, candidate_name, pct) |>
+  select(
+    pollster, numeric_grade, pollscore, state, start_date, end_date, 
+    sample_size, population, internal, partisan, seat_number, 
+    party, answer, candidate_name, pct
+  ) |>
   mutate(
     state_abbr = case_when( 
       state == "Alabama" ~ "AL", 
@@ -96,9 +100,17 @@ house_polling <- read_csv("polling/house_polls.csv") |>
       state == "Washington" ~ "WA", 
       state == "West Virginia" ~ "WV", 
       state == "Wisconsin" ~ "WI", 
-      state == "Wyoming" ~ "WY",),
-    seat_number = ifelse(state_abbr %in% c("WY", "VT", "SD", "ND", "DE", "CT"), "00",
-                  ifelse(state_abbr == "AK", 99, seat_number)),
+      state == "Wyoming" ~ "WY"
+    ),
+    seat_number = ifelse(
+      state_abbr %in% c("WY", "VT", "SD", "ND", "DE", "CT"), 
+      "00", 
+      ifelse(
+        state_abbr == "AK", 
+        "99", 
+        sprintf("%02d", as.integer(seat_number))  # Add leading zeros for numbers < 10
+      )
+    ),
     district_name = paste(state_abbr, seat_number, sep = "")
   ) |>
   filter(
@@ -119,7 +131,7 @@ house_polling_aggregated <- house_polling |>
     ) |>
     filter(
       party %in% c("DEM", "REP"),
-      !is.na(sample_size),
+      #!is.na(sample_size),
         (
         !partisan %in% c("DEM", "REP") |
         !pollster %in% c("Trafalgar Group", "Patriot Polling", "SoCal Strategies", "RMG 
@@ -145,6 +157,12 @@ house_polling_aggregated <- house_polling |>
 
 ```{r, results='hide'}
 #| label: merge_polling_and_spacial
+
+house_polling_sf <- house_polling_aggregated |>
+  left_join(
+    us_congressional_2022 |> select(id, geometry),
+    join_by(district_name  == id)
+  )
 ```
 
 ```{r, results='hide', fig.width=10, fig.height=5}
@@ -154,9 +172,15 @@ ggplot() +
     geom_sf(
         data = us_congressional_2022,
         aes(geometry = geometry),
+        fill = "#E8E8E8",
         show.legend = FALSE
     ) +
-    #scale_fill_gradient2(high = "#002B84", mid = '#B9D7FF', low = "#800000", midpoint = 10) +
+    geom_sf(
+        data = house_polling_sf,
+        aes(geometry = geometry, fill=DEM_LEAD_PCT),
+        show.legend = FALSE
+    ) +
+    scale_fill_gradient2(high = "#002B84", mid = '#B9D7FF', low = "#800000", midpoint = 0) +
     labs(
       title="United States House of Representatives Congressional District Map"
     )
