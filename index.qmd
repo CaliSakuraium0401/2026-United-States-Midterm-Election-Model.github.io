@@ -34,7 +34,114 @@ library(USAboundaries)
 ```{r, results='hide'}
 #| label: load_spacial_data
 us_states <- us_states()
-us_congressional_2022 <- st_read(file.path("data/congressional_districts.shp"))
+us_congressional_2022 <- st_read(file.path("spacial/congressional_districts.shp"))
+```
+
+```{r, results='hide'}
+#| label: load_polling_data
+
+house_polling <- read_csv("polling/house_polls.csv") |>
+  select(pollster, numeric_grade, pollscore, state, start_date, end_date, sample_size, population, internal, partisan, seat_number, party, answer, candidate_name, pct) |>
+  mutate(
+    state_abbr = case_when( 
+      state == "Alabama" ~ "AL", 
+      state == "Alaska" ~ "AK", 
+      state == "Arizona" ~ "AZ", 
+      state == "Arkansas" ~ "AR", 
+      state == "California" ~ "CA", 
+      state == "Colorado" ~ "CO", 
+      state == "Connecticut" ~ "CT", 
+      state == "Delaware" ~ "DE", 
+      state == "Florida" ~ "FL", 
+      state == "Georgia" ~ "GA", 
+      state == "Hawaii" ~ "HI", 
+      state == "Idaho" ~ "ID", 
+      state == "Illinois" ~ "IL", 
+      state == "Indiana" ~ "IN", 
+      state == "Iowa" ~ "IA", 
+      state == "Kansas" ~ "KS", 
+      state == "Kentucky" ~ "KY", 
+      state == "Louisiana" ~ "LA", 
+      state == "Maine" ~ "ME", 
+      state == "Maryland" ~ "MD", 
+      state == "Massachusetts" ~ "MA", 
+      state == "Michigan" ~ "MI", 
+      state == "Minnesota" ~ "MN", 
+      state == "Mississippi" ~ "MS", 
+      state == "Missouri" ~ "MO", 
+      state == "Montana" ~ "MT", 
+      state == "Nebraska" ~ "NE", 
+      state == "Nevada" ~ "NV", 
+      state == "New Hampshire" ~ "NH", 
+      state == "New Jersey" ~ "NJ", 
+      state == "New Mexico" ~ "NM", 
+      state == "New York" ~ "NY", 
+      state == "North Carolina" ~ "NC", 
+      state == "North Dakota" ~ "ND", 
+      state == "Ohio" ~ "OH", 
+      state == "Oklahoma" ~ "OK", 
+      state == "Oregon" ~ "OR", 
+      state == "Pennsylvania" ~ "PA", 
+      state == "Rhode Island" ~ "RI", 
+      state == "South Carolina" ~ "SC", 
+      state == "South Dakota" ~ "SD", 
+      state == "Tennessee" ~ "TN", 
+      state == "Texas" ~ "TX", 
+      state == "Utah" ~ "UT", 
+      state == "Vermont" ~ "VT", 
+      state == "Virginia" ~ "VA", 
+      state == "Washington" ~ "WA", 
+      state == "West Virginia" ~ "WV", 
+      state == "Wisconsin" ~ "WI", 
+      state == "Wyoming" ~ "WY",),
+    seat_number = ifelse(state_abbr %in% c("WY", "VT", "SD", "ND", "DE", "CT"), "00",
+                  ifelse(state_abbr == "AK", 99, seat_number)),
+    district_name = paste(state_abbr, seat_number, sep = "")
+  ) |>
+  filter(
+    !is.na(state_abbr)
+  )
+```
+
+```{r, results='hide'}
+#| label: aggregate_house_polling
+
+house_polling_aggregated <- house_polling |>
+      mutate(
+        pollscore = as.numeric(pollscore),
+        sample_size = as.numeric(sample_size),
+        numeric_grade = as.numeric(numeric_grade),
+        start_date = as.Date(start_date, format="%m/%d/%y"),
+        end_date = as.Date(end_date, format="%m/%d/%y")
+    ) |>
+    filter(
+      party %in% c("DEM", "REP"),
+      !is.na(sample_size),
+        (
+        !partisan %in% c("DEM", "REP") |
+        !pollster %in% c("Trafalgar Group", "Patriot Polling", "SoCal Strategies", "RMG 
+         Research","InsiderAdvantage", "co/efficient")
+        )
+    ) |> 
+    summarize(
+        pct = round(weighted.mean(pct, sample_size, na.rm = TRUE),1),
+        .by = c(state, party, state_abbr, district_name)
+    ) |>
+    pivot_wider(
+      names_from = party,
+      values_from = pct
+    ) |>
+    filter(
+      !is.na(DEM),
+      !is.na(REP)
+    ) |>
+    mutate(
+      DEM_LEAD_PCT = DEM - REP
+    )
+```
+
+```{r, results='hide'}
+#| label: merge_polling_and_spacial
 ```
 
 ```{r, results='hide', fig.width=10, fig.height=5}
@@ -43,9 +150,10 @@ us_congressional_2022 <- st_read(file.path("data/congressional_districts.shp"))
 ggplot() +
     geom_sf(
         data = us_congressional_2022,
-        fill = "#E2E2E2",
+        aes(geometry = geometry),
         show.legend = FALSE
     ) +
+    #scale_fill_gradient2(high = "#002B84", mid = '#B9D7FF', low = "#800000", midpoint = 10) +
     labs(
       title="United States House of Representatives Congressional District Map"
     )
