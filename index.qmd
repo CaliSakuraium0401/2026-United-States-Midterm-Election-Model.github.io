@@ -19,7 +19,7 @@ execute:
 ---
 
 ```{r, results='hide'}
-#| label: load-packages
+#| label: load_packages
 library(dplyr)
 library(ggplot2)
 library(ggthemes)
@@ -29,4 +29,24 @@ library(readxl)
 library(sf)
 library(rmapshaper)
 library(USAboundaries)
+```
+
+```{r, results='hide'}
+#| label: load_spacial_data
+us_states <- us_states()
+us_congressional_2022 <- st_read(file.path("data/congressional_districts.shp"))
+```
+
+```{r, results='hide'}
+#| label: plot_spacial_data
+
+ggplot() +
+    geom_sf(
+        data = us_congressional_2022,
+        fill = "#E2E2E2",
+        show.legend = FALSE
+    ) +
+    labs(
+      title="United States House of Representatives Congressional District Map"
+    )
 ```
