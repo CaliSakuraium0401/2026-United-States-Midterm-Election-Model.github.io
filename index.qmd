@@ -31,6 +31,9 @@ library(rmapshaper)
 library(USAboundaries)
 ```
 
+## House of Representatives Elections
+All 435 House seats will be up for election, along with delegates for D.C. and four U.S. territories (excluding Puerto Rico). At least 11 Democrats hold seats Trump previously won, while 2–3 Republicans are in seats won by Harris.
+
 ```{r, results='hide'}
 #| label: load_spacial_data
 us_states <- us_states()
@@ -158,3 +161,6 @@ ggplot() +
       title="United States House of Representatives Congressional District Map"
     )
 ```
+
+## Senate Elections
+33 of the 100 seats in the United States Senate will becontested. In additon to the 33 regularaly scheduled senatorial elections, there will be two special elections held in Ohio and Florida. Ohio due to J.D Vance vacating his seat when he is inaugurated as Vice President and Marco Rubio vacating his seat when he is (likely) nominated as Secretary of State.
