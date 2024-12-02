@@ -1,8 +1,6 @@
 # 2026-United-States-Midterm-Election-Model
-
-The 2026 United States elections are scheduled to be held, in large part, on Tuesday, November 3, 2026. In this U.S. midterm election, which will occur during Republican President Donald Trump's non-consecutive second term, all 435 seats in the U.S. House of Representatives and 33 of the 100 seats in the U.S. Senate will be contested to determine the 120th United States Congress. Thirty-nine state and territorial U.S. gubernatorial elections, as well as numerous state and local elections, will also be contested.
+The 2026 U.S. Midterm Elections on November 3 will occur during Donald Trump's second term, with all 435 House seats, 33 (+2) Senate seats, 39 gubernatorial races.
 
 #### Data Sources
-
 -   [U.S. Congress GIS Database](https://simplemaps.com/data/congress)
 -   [FiveThirtyEight](https://abcnews.go.com/538)
