@@ -175,10 +175,11 @@ ggplot() +
     geom_sf(
         data = house_polling_sf,
         aes(geometry = geometry, fill=DEM_LEAD_PCT, color=DEM_LEAD_PCT),
-        show.legend = TRUE
+        show.legend = TRUE,
+        alpha = 0.7
     ) +
     scale_fill_gradient2(high = "#002B84", mid = '#B9D7FF', low = "#800000", midpoint = 1.5) +
-    scale_color_gradient2(high = "#00137F", mid = '#A1BBDD', low = "#630000", midpoint = 1.5) +
+    scale_color_gradient2(high = "#002B84", mid = '#B9D7FF', low = "#800000", midpoint = 1.5) +
     labs(
       title="2026 United States House of Representatives Elections Polling",
       subtitle="(The data displayed on the map currently uses 2024 polling data instead of 2026 data for testing and outlining purposes)",
