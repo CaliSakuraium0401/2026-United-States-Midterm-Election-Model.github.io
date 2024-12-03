@@ -32,7 +32,6 @@ library(USAboundaries)
 ```
 
 ## House of Representatives Elections
-
 All 435 House seats will be up for election, along with delegates for D.C. and four U.S. territories (excluding Puerto Rico). At least 11 Democrats hold seats Trump previously won, while 2–3 Republicans are in seats won by Harris.
 
 ```{r, results='hide'}
@@ -175,22 +174,23 @@ ggplot() +
     ) +
     geom_sf(
         data = house_polling_sf,
-        aes(geometry = geometry, fill=DEM_LEAD_PCT),
+        aes(geometry = geometry, fill=DEM_LEAD_PCT, color=DEM_LEAD_PCT),
         show.legend = TRUE
     ) +
     scale_fill_gradient2(high = "#002B84", mid = '#B9D7FF', low = "#800000", midpoint = 1.5) +
+    scale_color_gradient2(high = "#00137F", mid = '#A1BBDD', low = "#630000", midpoint = 1.5) +
     labs(
       title="2026 United States House of Representatives Elections Polling",
       subtitle="(The data displayed on the map currently uses 2024 polling data instead of 2026 data for testing and outlining purposes)",
       caption="Source : FiveThirtyEight",
       fill="DEM-REP"
     ) +
+    guides(color = "none") +
     theme_void() +
     theme(legend.position = "left")
 ```
 
 ## Senate Elections
-
 33 of the 100 seats in the United States Senate will becontested. In additon to the 33 regularaly scheduled senatorial elections, there will be two special elections held in Ohio and Florida. Ohio due to J.D Vance vacating his seat when he is inaugurated as Vice President and Marco Rubio vacating his seat when he is (likely) nominated as Secretary of State.
 
 ```{r, results='hide'}
