@@ -37,7 +37,10 @@ All 435 House seats will be up for election, along with delegates for D.C. and f
 ```{r, results='hide'}
 #| label: load_spacial_data
 us_states <- us_states()
-us_congressional_2022 <- as_tibble(st_read(file.path("spacial/congressional_districts.shp")))
+us_congressional_2022 <- as_tibble(st_read(file.path("spacial/congress_albersusa.shp")))
+us_congressional_2022 <- us_congressional_2022 |> 
+  mutate(id = trimws(id)) |>
+  rename(district_id = id)
 ```
 
 ```{r, results='hide'}
@@ -108,10 +111,10 @@ house_polling <- read_csv("polling/house_polls.csv") |>
       ifelse(
         state_abbr == "AK", 
         "99", 
-        sprintf("%02d", as.integer(seat_number))  # Add leading zeros for numbers < 10
+        sprintf("%02d", seat_number)
       )
     ),
-    district_name = paste(state_abbr, seat_number, sep = "")
+    district_id = trimws(paste(state_abbr, seat_number, sep = ""))
   ) |>
   filter(
     !is.na(state_abbr)
@@ -132,15 +135,10 @@ house_polling_aggregated <- house_polling |>
     filter(
       party %in% c("DEM", "REP"),
       #!is.na(sample_size),
-        (
-        !partisan %in% c("DEM", "REP") |
-        !pollster %in% c("Trafalgar Group", "Patriot Polling", "SoCal Strategies", "RMG 
-         Research","InsiderAdvantage", "co/efficient")
-        )
     ) |> 
     summarize(
         pct = round(weighted.mean(pct, sample_size, na.rm = TRUE),1),
-        .by = c(state, party, state_abbr, district_name)
+        .by = c(state, party, state_abbr, district_id)
     ) |>
     pivot_wider(
       names_from = party,
@@ -159,9 +157,9 @@ house_polling_aggregated <- house_polling |>
 #| label: merge_polling_and_spacial
 
 house_polling_sf <- house_polling_aggregated |>
-  left_join(
-    us_congressional_2022 |> select(id, geometry),
-    join_by(district_name  == id)
+  inner_join(
+    us_congressional_2022,
+    join_by(district_id)
   )
 ```
 
@@ -178,11 +176,14 @@ ggplot() +
     geom_sf(
         data = house_polling_sf,
         aes(geometry = geometry, fill=DEM_LEAD_PCT),
-        show.legend = FALSE
+        show.legend = TRUE
     ) +
-    scale_fill_gradient2(high = "#002B84", mid = '#B9D7FF', low = "#800000", midpoint = 0) +
+    scale_fill_gradient2(high = "#002B84", mid = '#B9D7FF', low = "#800000", midpoint = 1.5) +
     labs(
-      title="United States House of Representatives Congressional District Map"
+      title="2026 United States House of Representatives Elections Polling",
+      subtitle="(The data displayed on the map currently uses 2024 polling data instead of 2026 data for testing and outlining purposes)",
+      caption="FiveThirtyEight",
+      fill="Partisan"
     )
 ```
 
