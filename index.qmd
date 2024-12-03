@@ -1,6 +1,6 @@
 ---
 title: "2026 United States Midterm Election Model"
-subtitle: "Analysis of Polls and Trends"
+subtitle: "Projecting Outcomes Through Polls and Trends"
 author: "CaliSakuraium"
 date: "`r Sys.Date()`"
 format:
@@ -133,8 +133,7 @@ house_polling_aggregated <- house_polling |>
         end_date = as.Date(end_date, format="%m/%d/%y")
     ) |>
     filter(
-      party %in% c("DEM", "REP"),
-      #!is.na(sample_size),
+      party %in% c("DEM", "REP")
     ) |> 
     summarize(
         pct = round(weighted.mean(pct, sample_size, na.rm = TRUE),1),
@@ -182,9 +181,11 @@ ggplot() +
     labs(
       title="2026 United States House of Representatives Elections Polling",
       subtitle="(The data displayed on the map currently uses 2024 polling data instead of 2026 data for testing and outlining purposes)",
-      caption="FiveThirtyEight",
-      fill="Partisan"
-    )
+      caption="Source : FiveThirtyEight",
+      fill="DEM-REP"
+    ) +
+    theme_void() +
+    theme(legend.position = "left")
 ```
 
 ## Senate Elections
