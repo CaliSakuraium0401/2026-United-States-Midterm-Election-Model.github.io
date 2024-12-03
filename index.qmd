@@ -32,6 +32,7 @@ library(USAboundaries)
 ```
 
 ## House of Representatives Elections
+
 All 435 House seats will be up for election, along with delegates for D.C. and four U.S. territories (excluding Puerto Rico). At least 11 Democrats hold seats Trump previously won, while 2–3 Republicans are in seats won by Harris.
 
 ```{r, results='hide'}
@@ -44,7 +45,7 @@ us_congressional_2022 <- us_congressional_2022 |>
 ```
 
 ```{r, results='hide'}
-#| label: load_polling_data
+#| label: load_house_polling_data
 
 house_polling <- read_csv("polling/house_polls.csv") |>
   select(
@@ -122,7 +123,7 @@ house_polling <- read_csv("polling/house_polls.csv") |>
 ```
 
 ```{r, results='hide'}
-#| label: aggregate_house_polling
+#| label: aggregate_house_polling_data
 
 house_polling_aggregated <- house_polling |>
       mutate(
@@ -153,7 +154,7 @@ house_polling_aggregated <- house_polling |>
 ```
 
 ```{r, results='hide'}
-#| label: merge_polling_and_spacial
+#| label: house_polling_and_spacial_data
 
 house_polling_sf <- house_polling_aggregated |>
   inner_join(
@@ -163,7 +164,7 @@ house_polling_sf <- house_polling_aggregated |>
 ```
 
 ```{r, results='hide', fig.width=10, fig.height=5}
-#| label: plot_spacial_data
+#| label: house_polling_map
 
 ggplot() +
     geom_sf(
@@ -189,4 +190,78 @@ ggplot() +
 ```
 
 ## Senate Elections
+
 33 of the 100 seats in the United States Senate will becontested. In additon to the 33 regularaly scheduled senatorial elections, there will be two special elections held in Ohio and Florida. Ohio due to J.D Vance vacating his seat when he is inaugurated as Vice President and Marco Rubio vacating his seat when he is (likely) nominated as Secretary of State.
+
+```{r, results='hide'}
+#| label: create_senate_spacial_data
+
+us_senate_2026 <- us_states |>
+  filter(
+    name %in% c(
+      # Contested Class 2 Senate Seats:
+      "Alabama", 
+      #"Alaska", 
+      "Arkansas", 
+      "Colorado", 
+      "Delaware", 
+      "Georgia", 
+      "Idaho", 
+      "Illinois", 
+      "Iowa", 
+      "Kansas", 
+      "Kentucky", 
+      "Louisiana", 
+      "Maine", 
+      "Massachusetts", 
+      "Michigan", 
+      "Minnesota", 
+      "Mississippi", 
+      "Montana", 
+      "Nebraska", 
+      "New Hampshire", 
+      "New Jersey", 
+      "New Mexico", 
+      "North Carolina", 
+      "Oklahoma", 
+      "Oregon", 
+      "Rhode Island", 
+      "South Carolina", 
+      "South Dakota", 
+      "Tennessee", 
+      "Texas", 
+      "Virginia", 
+      "West Virginia", 
+      "Wyoming",
+      # Special Elections:
+      "Ohio", # Vacated by J.D Vance due to being elected Vice President
+      "Florida" # Vacated by Marco Rubio due to being nominated Secretary of State
+    )
+  )
+```
+
+```{r, results='hide', fig.width=10, fig.height=5}
+#| label: senate_polling_map
+
+# Note: I could perhaps merge the Alaska-at-large into the us_senate_2026 (without Alaska) and see if it is moved there.
+
+ggplot() +
+    geom_sf(
+        data = us_states |> filter(!name %in% c("Alaska", "Hawaii", "Puerto Rico")),
+        aes(geometry = geometry),
+        fill = "#C0C0C0",
+        show.legend = FALSE
+    ) +
+    geom_sf(
+        data = us_senate_2026,
+        aes(geometry = geometry),
+        fill="#E8E8E8",
+        show.legend = FALSE
+    ) +
+    labs(
+      title="2026 United States Senate Elections Polling",
+      subtitle="(Excluding Alaska For Now)"
+    ) +
+    theme_void() +
+    theme(legend.position = "left")
+```
