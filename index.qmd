@@ -176,7 +176,7 @@ ggplot() +
         data = house_polling_sf,
         aes(geometry = geometry, fill=DEM_LEAD_PCT, color=DEM_LEAD_PCT),
         show.legend = TRUE,
-        alpha = 0.7
+        alpha = 0.7,
     ) +
     scale_fill_gradient2(high = "#002B84", mid = '#B9D7FF', low = "#800000", midpoint = 1.5) +
     scale_color_gradient2(high = "#002B84", mid = '#B9D7FF', low = "#800000", midpoint = 1.5) +
@@ -192,7 +192,7 @@ ggplot() +
 ```
 
 ## Senate Elections
-33 of the 100 seats in the United States Senate will becontested. In additon to the 33 regularaly scheduled senatorial elections, there will be two special elections held in Ohio and Florida. Ohio due to J.D Vance vacating his seat when he is inaugurated as Vice President and Marco Rubio vacating his seat when he is (likely) nominated as Secretary of State.
+33 of the 100 seats in the United States Senate will becontested. In additon to the 33 regularaly scheduled senatorial elections, there will be two special elections held in Ohio and Florida due to Vice President J.D Vance vacacting his previously held Senate seat to become Vice President and Marco Rubio vacating his Senate seat to become Secretary of State.
 
 ```{r, results='hide'}
 #| label: create_senate_spacial_data
