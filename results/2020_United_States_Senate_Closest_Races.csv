@@ -1,0 +1,11 @@
+state,state_code,winner,senator,margin,flip
+Georgia,CA,Democratic,Jon Ossoff,1.23,TRUE
+Michigan,MI,Democratic,Gary Peters,1.68,FALSE
+North Carolina,NC,Republican,Thom Tillis,1.75,FALSE
+Minnesota,MN,Democratic,Tina Smith,5.24,FALSE
+New Mexico,NM,Democratic,Ben Ray Luján,6.11,FALSE
+Iowa,IA,Republican,Joni Ernst,6.59,FALSE
+Maine,ME,Republican,Susan Collins,8.59,FALSE
+Colorado,CO,Democratic,John Hickenlooper,9.32,TRUE
+Texas,TX,Republican,John Cornyn,9.64,FALSE
+Mississippi,MS,Republican,Cindy Hyde-Smith,9.97,FALSE
