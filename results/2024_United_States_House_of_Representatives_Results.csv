@@ -1,0 +1,436 @@
+state_code,state,district,district_code,dem_votes,gop_votes,other_votes,total_votes,winner,flip,representative
+AL,Alabama,01,AL01,70929,258619,306,329854,Republican,FALSE,Barry Moore
+AL,Alabama,02,AL02,158041,131414,219,289674,Democratic,TRUE,Shomari Figures
+AL,Alabama,03,AL03,0,243848,5160,249008,Republican,FALSE,Mike Rogers
+AL,Alabama,04,AL04,0,274498,3374,277872,Republican,FALSE,Robert Aderholt
+AL,Alabama,05,AL05,0,250322,12088,262410,Republican,FALSE,Dale Strong
+AL,Alabama,06,AL06,102504,243741,380,346625,Republican,FALSE,Gary Palmer
+AL,Alabama,07,AL07,186723,106312,185,293220,Democratic,FALSE,Terri Sewell
+AK,Alaska,00,AK00,156985,164861,0,321846,Republican,TRUE,Nick Begich III
+AZ,Arizona,01,AZ01,208966,225538,0,434504,Republican,FALSE,David Schweikert
+AZ,Arizona,02,AZ02,184963,221413,55,406431,Republican,FALSE,Eli Crane
+AZ,Arizona,03,AZ03,143336,53705,5024,202065,Democratic,FALSE,Yassamin Ansari
+AZ,Arizona,04,AZ04,176428,152052,6065,334545,Democratic,FALSE,Greg Stanton
+AZ,Arizona,05,AZ05,167680,255628,0,423308,Republican,FALSE,Andy Biggs
+AZ,Arizona,06,AZ06,204774,215596,10850,431220,Republican,FALSE,Juan Ciscomani
+AZ,Arizona,07,AZ07,171954,99057,0,271011,Democratic,FALSE,Raúl Grijalva
+AZ,Arizona,08,AZ08,160344,208269,0,368613,Republican,FALSE,Abraham Hamadeh
+AZ,Arizona,09,AZ09,132640,249583,0,382223,Republican,FALSE,Paul Gosar
+AR,Arkansas,01,AR01,63917,194435,8337,266689,Republican,FALSE,Rick Crawford
+AR,Arkansas,02,AR02,125777,180509,0,306286,Republican,FALSE,French Hill
+AR,Arkansas,03,AR03,95652,192101,13331,301084,Republican,FALSE,Steve Womack	
+AR,Arkansas,04,AR04,73207,197046,0,270253,Republican,FALSE,Bruce Westerman
+CA,California,01,CA01,208592,110636,0,319228,Democratic,FALSE,Doug LaMalfa
+CA,California,02,CA02,272883,106734,0,379617,Democratic,FALSE,Jared Huffman
+CA,California,03,CA03,234246,188067,0,422313,Democratic,FALSE,Kevin Kiley
+CA,California,04,CA04,227730,114950,0,342680,Democratic,FALSE,Mike Thompson
+CA,California,05,CA05,140919,227643,0,368562,Republican,FALSE,Tom McClintock
+CA,California,06,CA06,165408,121664,0,287072,Democratic,FALSE,Ami Bera
+CA,California,07,CA07,197429,98341,0,295770,Democratic,FALSE,Doris Matsui
+CA,California,08,CA08,201962,71068,0,273030,Democratic,FALSE,John Garamendi
+CA,California,09,CA09,130183,121174,0,251357,Democratic,FALSE,Josh Harder 
+CA,California,10,CA10,242325,122219,0,364544,Democratic,FALSE,Mark DeSaulnier
+CA,California,11,CA11,274796,64315,0,339111,Democratic,FALSE,Nancy Pelosi 
+CA,California,12,CA12,283025,0,0,283025,Democratic,FALSE,Lateefah Simon
+CA,California,13,CA13,105554,105367,0,210921,Democratic,TRUE,John Duarte
+CA,California,14,CA14,187263,89125,0,276388,Democratic,FALSE,Eric Swalwell
+CA,California,15,CA15,211648,77896,0,289544,Democratic,FALSE,Kevin Mullin
+CA,California,16,CA16,308476,0,0,308476,Democratic,FALSE,Sam Liccardo
+CA,California,17,CA17,172462,82415,0,254877,Democratic,FALSE,Ro Khanna
+CA,California,18,CA18,147674,80832,0,228506,Democratic,FALSE,Zoe Lofgren
+CA,California,19,CA19,252458,111862,0,364320,Democratic,FALSE,Jimmy Panetta
+CA,California,20,CA20,0,288788,0,288788,Republican,FALSE,Vince Fong 
+CA,California,21,CA21,102798,92733,0,195531,Democratic,FALSE,Jim Costa
+CA,California,22,CA22,78023,89484,0,"167,507",Republican,FALSE,David Valadao
+CA,California,23,CA23,105563,159286,0,264849,Republican,FALSE,Jay Obernolte
+CA,California,24,CA24,214724,127755,0,342479,Democratic,FALSE,Salud Carbajal
+CA,California,25,CA25,137837,107194,0,245031,Democratic,FALSE,Raul Ruiz
+CA,California,26,CA26,187393,146913,0,334306,Democratic,FALSE,Julia Brownley
+CA,California,27,CA27,154040,146050,0,300090,Democratic,TRUE,George Whitesides	
+CA,California,28,CA28,204489,110455,0,314944,Democratic,FALSE,Judy Chu
+CA,California,29,CA29,146312,63374,0,209686,Democratic,FALSE,Luz Rivas
+CA,California,30,CA30,213100,98559,0,311659,Democratic,FALSE,Laura Friedman
+CA,California,31,CA31,148095,99856,0,247951,Democratic,FALSE,Gil Cisneros
+CA,California,32,CA32,212934,108711,0,321645,Democratic,FALSE,Brad Sherman
+CA,California,33,CA33,137197,96078,0,233275,Democratic,FALSE,Pete Aguilar
+CA,California,34,CA34,189414,0,0,189414,Democratic,FALSE,Jimmy Gomez
+CA,California,35,CA35,136413,97142,0,233555,Democratic,FALSE,Norma Torres
+CA,California,36,CA36,246002,111985,0,357987,Democratic,FALSE,Ted Lieu
+CA,California,37,CA37,160364,0,44450,204814,Democratic,FALSE,Sydney Kamlager-Dove
+CA,California,38,CA38,165110,110818,0,275928,Democratic,FALSE,Linda Sánchez
+CA,California,39,CA39,130191,99469,0,229660,Democratic,FALSE,Mark Takano
+CA,California,40,CA40,171637,211998,0,383635,Republican,FALSE,Young Kim
+CA,California,41,CA41,171229,183216,0,354445,Republican,FALSE,Ken Calvert
+CA,California,42,CA42,159153,74410,0,233563,Democratic,FALSE,Robert Garcia
+CA,California,43,CA43,160080,53152,0,213232,Democratic,FALSE,Maxine Waters
+CA,California,44,CA44,164765,66087,0,230852,Democratic,FALSE,Nanette Barragán
+CA,California,45,CA45,158264,157611,0,315875,Democratic,TRUE,Derek Tran
+CA,California,46,CA46,134013,77279,0,211292,Democratic,FALSE,Lou Correa
+CA,California,47,CA47,181721,171554,0,353275,Democratic,FALSE,Dave Min
+CA,California,48,CA48,146665,213625,0,360290,Republican,FALSE,Darrell Issa
+CA,California,49,CA49,197397,180950,0,378347,Democratic,FALSE,Mike Levin
+CA,California,50,CA50,231836,128859,0,360695,Democratic,FALSE,Scott Peters
+CA,California,51,CA51,198835,128749,0,327584,Democratic,FALSE,Sara Jacobs
+CA,California,52,CA52,172217,87501,0,259718,Democratic,FALSE,Juan Vargas
+CO,Colorado,01,CO01,264606,74598,6531,345735,Democratic,FALSE,Diana DeGette
+CO,Colorado,02,CO02,284994,120633,11281,416908,Democratic,FALSE,Joe Neguse
+CO,Colorado,03,CO03,182147,201951,13455,397553,Republican,FALSE,Jeff Hurd
+CO,Colorado,04,CO04,188249,240213,19345,447807,Republican,FALSE,Lauren Boebert
+CO,Colorado,05,CO05,147972,197924,16189,362085,Republican,FALSE,Jeff Crank
+CO,Colorado,06,CO06,202686,132174,8861,343721,Democratic,FALSE,Jason Crow
+CO,Colorado,07,CO07,235688,175273,15005,425966,Democratic,FALSE,Brittany Pettersen
+CO,Colorado,08,CO08,160871,163320,9425,333616,Republican,FALSE,Gabe Evans
+CT,Connecticut,01,CT01,197788,115065,17629,330482,Democratic,FALSE,John Larson
+CT,Connecticut,02,CT02,218162,157878,7,376047,Democratic,FALSE,Joe Courtney
+CT,Connecticut,03,CT03,193684,130095,5144,328923,Democratic,FALSE,Rosa DeLauro
+CT,Connecticut,04,CT04,200791,122793,5273,328857,Democratic,FALSE,Jim Himes
+CT,Connecticut,05,CT05,171337,157258,9010,337605,Democratic,FALSE,Jahana Hayes
+DE,Delaware,00,DE00,287830,209606,0,497436,Democratic,FALSE,Sarah McBride
+FL,Florida,01,FL01,140980,274108,0,415088,Republican,FALSE,Matt Gaetz
+FL,Florida,02,FL02,154323,247957,0,402280,Republican,FALSE,Neal Dunn
+FL,Florida,03,FL03,150283,241174,0,391457,Republican,FALSE,Kat Cammack
+FL,Florida,04,FL04,165912,222364,73,388349,Republican,FALSE,Aaron Bean 
+FL,Florida,05,FL05,156570,267471,23,424064,Republican,FALSE,John Rutherford
+FL,Florida,06,FL06,143050,284414,10,427474,Republican,FALSE,Michael Waltz
+FL,Florida,07,FL07,179917,233937,0,413854,Republican,FALSE,Cory Mills
+FL,Florida,08,FL08,170096,280352,0,450448,Republican,FALSE,Mike Haridopolos
+FL,Florida,09,FL09,178785,138076,7412,324273,Democratic,FALSE,Darren Soto
+FL,Florida,10,FL10,181455,109460,0,290915,Democratic,FALSE,Maxwell Alejandro Frost
+FL,Florida,11,FL11,176726,269277,0,446003,Republican,FALSE,Daniel Webster
+FL,Florida,12,FL12,125949,306487,0,432436,Republican,FALSE,Gus Bilirakis
+FL,Florida,13,FL13,185930,225636,27,411593,Republican,FALSE,Anna Paulina Luna
+FL,Florida,14,FL14,199423,145643,5119,350185,Democratic,FALSE,Kathy Castor
+FL,Florida,15,FL15,152361,195334,0,347695,Republican,FALSE,Laurel Lee
+FL,Florida,16,FL16,168625,247516,0,416141,Republican,FALSE,Vern Buchanan
+FL,Florida,17,FL17,164566,291347,8,455921,Republican,FALSE,Greg Steube
+FL,Florida,18,FL18,119637,225170,0,344807,Republican,FALSE,Scott Franklin
+FL,Florida,19,FL19,140038,275708,0,415746,Republican,FALSE,Byron Donalds
+FL,Florida,20,FL20,1,0,0,1,Democratic,FALSE,Sheila Cherfilus-McCormick
+FL,Florida,21,FL21,171312,277435,19,448766,Republican,FALSE,Brian Mast
+FL,Florida,22,FL22,201608,165248,0,366856,Democratic,FALSE,Lois Frankel
+FL,Florida,23,FL23,196311,178006,0,374317,Democratic,FALSE,Jared Moskowitz
+FL,Florida,24,FL24,194874,90692,22,285588,Democratic,FALSE,Frederica Wilson
+FL,Florida,25,FL25,186942,156208,41,343191,Democratic,FALSE,Debbie Wasserman Schultz
+FL,Florida,26,FL26,89072,217199,0,306271,Republican,FALSE,Mario Díaz-Balart 
+FL,Florida,27,FL27,130708,199159,0,329867,Republican,FALSE,Maria Elvira Salazar
+FL,Florida,28,FL28,115280,210057,0,325337,Republican,FALSE,Carlos Giménez
+GA,Georgia,01,GA01,135281,220576,0,355857,Republican,FALSE,Buddy Carter
+GA,Georgia,02,GA02,176028,136473,0,312501,Democratic,FALSE,Sanford Bishop
+GA,Georgia,03,GA03,138749,273036,0,411785,Republican,FALSE,Brian Jack
+GA,Georgia,04,GA04,229290,74071,0,303361,Democratic,FALSE,Hank Johnson
+GA,Georgia,05,GA05,294470,49221,0,343691,Democratic,FALSE,Nikema Williams
+GA,Georgia,06,GA06,277027,93909,0,370936,Democratic,FALSE,Lucy McBath
+GA,Georgia,07,GA07,149535,275907,0,425442,Republican,FALSE,Rich McCormick
+GA,Georgia,08,GA08,104434,231547,0,335981,Republican,FALSE,Austin Scott
+GA,Georgia,09,GA09,121754,271062,0,392816,Republican,FALSE,Andrew Clyde
+GA,Georgia,10,GA10,150274,256442,0,406716,Republican,FALSE,Mike Collins
+GA,Georgia,11,GA11,141290,269849,0,411139,Republican,FALSE,Barry Loudermilk
+GA,Georgia,12,GA12,135417,205849,0,341266,Republican,FALSE,Rick Allen
+GA,Georgia,13,GA13,256902,100730,0,357632,Democratic,FALSE,David Scott
+GA,Georgia,14,GA14,134759,243446,0,378205,Republican,FALSE,Marjorie Taylor Greene
+HI,Hawaii,01,HI01,164237,64373,0,228610,Democratic,FALSE,Ed Case
+HI,Hawaii,02,HI02,166251,75471,8434,250156,Democratic,FALSE,Jill Tokuda
+ID,Idaho,01,ID01,118656,331049,16527,466232,Republican,FALSE,Russ Fulcher
+ID,Idaho,02,ID02,126229,250119,31114,407462,Republican,FALSE,Mike Simpson
+IL,Illinois,01,IL01,208398,108064,45,316507,Democratic,FALSE,Jonathan Jackson
+IL,Illinois,02,IL02,195777,94004,62,289843,Democratic,FALSE,Robin Kelly
+IL,Illinois,03,IL03,174825,84987,96,259908,Democratic,FALSE,Delia Ramirez
+IL,Illinois,04,IL04,139343,56323,10730,206396,Democratic,FALSE,Chuy García
+IL,Illinois,05,IL05,251025,112931,9,363965,Democratic,FALSE,Mike Quigley
+IL,Illinois,06,IL06,196647,166116,86,362849,Democratic,FALSE,Sean Casten
+IL,Illinois,07,IL07,222408,44598,146,267152,Democratic,FALSE,Danny Davis
+IL,Illinois,08,IL08,172920,130153,0,303073,Democratic,FALSE,Raja Krishnamoorthi
+IL,Illinois,09,IL09,231722,107106,0,338828,Democratic,FALSE,Janice Schakowsky
+IL,Illinois,10,IL10,196358,131025,238,327621,Democratic,FALSE,Brad Schneider
+IL,Illinois,11,IL11,199825,159630,229,359684,Democratic,FALSE,Bill Foster
+IL,Illinois,12,IL12,94875,272754,0,367629,Republican,FALSE,Mike Bost
+IL,Illinois,13,IL13,191339,137917,244,329500,Democratic,FALSE,Nikki Budzinski
+IL,Illinois,14,IL14,183446,149464,19,332929,Democratic,FALSE,Lauren Underwood
+IL,Illinois,15,IL15,1409,308825,0,310234,Republican,FALSE,Mary Miller
+IL,Illinois,16,IL16,0,310925,183,311108,Republican,FALSE,Darin LaHood
+IL,Illinois,17,IL17,142567,170261,0,312828,Republican,FALSE,Eric Sorensen
+IN,Indiana,01,IN01,172467,145054,5200,322721,Democratic,FALSE,	Frank J. Mrvan
+IN,Indiana,02,IN02,101962,184848,7808,294618,Republican,FALSE,Rudy Yakym
+IN,Indiana,03,IN03,97871,202653,11015,311539,Republican,FALSE,Marlin Stutzman
+IN,Indiana,04,IN04,100091,209794,13710,323595,Republican,FALSE,Jim Baird
+IN,Indiana,05,IN05,136554,203293,19357,359204,Republican,FALSE,Victoria Spartz
+IN,Indiana,06,IN06,99841,201357,13711,314909,Republican,FALSE,Jefferson Shreve
+IN,Indiana,07,IN07,185987,78792,7369,272148,Democratic,FALSE,André Carson
+IN,Indiana,08,IN08,95311,219941,8381,323633,Republican,FALSE,Mark Messmer
+IN,Indiana,09,IN09,113400,222884,9454,345738,Republican,FALSE,Erin Houchin
+IA,Iowa,01,IA01,206157,206955,967,414079,Republican,FALSE,Mariannette Miller-Meeks
+IA,Iowa,02,IA02,169740,233340,5722,408802,Republican,FALSE,Ashley Hinson
+IA,Iowa,03,IA03,197777,213625,1197,412599,Republican,FALSE,Zach Nunn
+IA,Iowa,04,IA04,122175,250522,1127,373824,Republican,FALSE,Randy Feenstra
+KS,Kansas,01,KS01,93965,210493,0,304458,Republican,FALSE,Tracey Mann 
+KS,Kansas,02,KS02,115685,172847,14229,302761,Republican,FALSE,Derek Schmidt
+KS,Kansas,03,KS03,209871,167570,15892,393333,Democratic,FALSE,Sharice Davids
+KS,Kansas,04,KS04,106632,198465,0,305097,Republican,FALSE,Ron Estes
+KY,Kentucky,01,KY01,85524,252729,0,338253,Republican,FALSE,James Comer
+KY,Kentucky,02,KY02,93029,252826,0,345855,Republican,FALSE,Brett Guthrie
+KY,Kentucky,03,KY03,203100,124713,51,327864,Democratic,FALSE,Morgan McGarvey
+KY,Kentucky,04,KY04,0,278386,1131,279517,Republican,FALSE,Thomas Massie
+KY,Kentucky,05,KY05,0,261407,0,261407,Republican,FALSE,Hal Rogers
+KY,Kentucky,06,KY06,130345,222293,0,352638,Republican,FALSE,Andy Barr 
+LA,Louisiana,01,LA01,85911,350939,6781,443631,Republican,FALSE,Steve Scalise
+LA,Louisiana,02,LA02,216491,88693,0,305184,Democratic,FALSE,Troy Carter
+LA,Louisiana,03,LA03,81157,239525,0,320682,Republican,FALSE,Clay Higgins
+LA,Louisiana,04,LA04,0,306248,0,306248,Republican,FALSE,Mike Johnson
+LA,Louisiana,05,LA05,82981,236870,0,319851,Republican,FALSE,Julia Letlow
+LA,Louisiana,06,LA06,184296,111737,0,296033,Democratic,TRUE,Cleo Fields
+ME,Maine,01,ME01,249798,154849,20883,425530,Democratic,FALSE,Chellie Pingree
+ME,Maine,02,ME02,197151,194445,0,391596,Democratic,FALSE,Jared Golden
+MD,Maryland,01,MD01,154985,246356,13339,414680,Republican,FALSE,Andy Harris
+MD,Maryland,02,MD02,223797,152079,8918,384794,Democratic,FALSE,Johnny Olszewski
+MD,Maryland,03,MD03,236681,151186,11333,399200,Democratic,FALSE,Sarah Elfreth
+MD,Maryland,04,MD04,239596,30454,920,270970,Democratic,FALSE,Glenn Ivey 
+MD,Maryland,05,MD05,283619,133985,999,418603,Democratic,FALSE,Steny Hoyer
+MD,Maryland,06,MD06,199788,175974,862,376624,Democratic,FALSE,April McClain Delaney
+MD,Maryland,07,MD07,232849,49799,7489,290137,Democratic,FALSE,Kweisi Mfume
+MD,Maryland,08,MD08,292101,77821,10399,380321,Democratic,FALSE,Jamie Raskin
+MA,Massachusetts,01,MA01,223325,0,134733,358058,Democratic,FALSE,Richard Neal
+MA,Massachusetts,02,MA02,251441,0,114887,366328,Democratic,FALSE,Jim McGovern
+MA,Massachusetts,03,MA03,264698,0,6861,271559,Democratic,FALSE,Lori Trahan
+MA,Massachusetts,04,MA04,289347,0,8378,297725,Democratic,FALSE,Jake Auchincloss
+MA,Massachusetts,05,MA05,286689,5201,0,291890,Democratic,FALSE,Katherine Clark
+MA,Massachusetts,06,MA06,321186,0,7191,328377,Democratic,FALSE,Seth Moulton
+MA,Massachusetts,07,MA07,232094,0,6907,239001,Democratic,FALSE,Ayanna Pressley
+MA,Massachusetts,08,MA08,265432,110638,760,376830,Democratic,FALSE,Stephen Lynch
+MA,Massachusetts,09,MA09,251931,193822,642,446395,Democratic,FALSE,Bill Keating
+MI,Michigan,01,MI01,180937,282264,13983,477184,Republican,FALSE,Jack Bergman
+MI,Michigan,02,MI02,135824,279167,13559,428550,Republican,FALSE,John Moolenaar
+MI,Michigan,03,MI03,225510,183952,10827,420289,Democratic,FALSE,Hillary Scholten
+MI,Michigan,04,MI04,184641,234489,6687,425817,Republican,FALSE,Bill Huizenga
+MI,Michigan,05,MI05,134282,269215,6379,409876,Republican,FALSE,Tim Walberg
+MI,Michigan,06,MI06,281162,158658,13486,453306,Democratic,FALSE,Debbie Dingell
+MI,Michigan,07,MI07,209959,226722,14231,450912,Republican,TRUE,Tom Barrett
+MI,Michigan,08,MI08,217490,189317,17543,424350,Democratic,FALSE,Kristen McDonald Rivet
+MI,Michigan,09,MI09,312593,138138,17507,468238,Democratic,FALSE,Lisa McClain
+MI,Michigan,10,MI10,191363,217437,16501,425301,Republican,FALSE,John James
+MI,Michigan,11,MI11,260780,177432,9713,447925,Democratic,FALSE,Haley Stevens
+MI,Michigan,12,MI12,253354,92490,17655,363499,Democratic,FALSE,Rashida Tlaib
+MI,Michigan,13,MI13,220788,78917,21944,321649,Democratic,FALSE,Shri Thanedar
+MN,Minnesota,01,MN01,156375,220929,297,377601,Republican,FALSE,Brad Finstad 
+MN,Minnesota,02,MN02,231751,175621,9947,417319,Democratic,FALSE,Angie Craig
+MN,Minnesota,03,MN03,240209,170427,504,411140,Democratic,FALSE,Kelly Morrison
+MN,Minnesota,04,MN04,242802,117618,623,361043,Democratic,FALSE,Betty McCollum
+MN,Minnesota,05,MN05,261066,86213,3768,351047,Democratic,FALSE,Ilhan Omar
+MN,Minnesota,06,MN06,155836,260095,565,416496,Republican,FALSE,Tom Emmer
+MN,Minnesota,07,MN07,114979,275098,433,390510,Republican,FALSE,Michelle Fischbach
+MN,Minnesota,08,MN08,176724,244498,384,421606,Republican,FALSE,Pete Stauber
+MS,Mississippi,01,MS01,96697,223589,0,320286,Republican,FALSE,Trent Kelly
+MS,Mississippi,02,MS02,177885,108956,0,286841,Democratic,FALSE,Bennie Thompson
+MS,Mississippi,03,MS03,0,265159,0,265159,Republican,FALSE,Michael Guest
+MS,Mississippi,04,MS04,215095,75771,9,290875,Democratic,FALSE,Mike Ezell
+MO,Missouri,01,MO01,233312,56453,17500,307265,Democratic,FALSE,Wesley Bell
+MO,Missouri,02,MO02,182056,233444,12892,428392,Republican,FALSE,Ann Wagner 
+MO,Missouri,03,MO03,138532,240620,13311,392463,Republican,FALSE,Bob Onder
+MO,Missouri,04,MO04,96568,259886,9242,365696,Republican,FALSE,Mark Alford 
+MO,Missouri,05,MO05,199900,120957,11072,331929,Democratic,FALSE,Emanuel Cleaver
+MO,Missouri,06,MO06,100999,265210,8977,375186,Republican,FALSE,Sam Graves
+MO,Missouri,07,MO07,96655,263231,7982,367868,Republican,FALSE,Eric Burlison
+MO,Missouri,08,MO08,77649,271249,7166,356064,Republican,FALSE,Jason Smith
+MT,Montana,01,MT01,143783,168529,9954,322266,Republican,FALSE,Ryan Zinke
+MT,Montana,02,MT02,93713,181832,1107,276652,Republican,FALSE,Troy Downing
+NE,Nebraska,01,NE01,124498,187559,0,312057,Republican,FALSE,Mike Flood
+NE,Nebraska,02,NE02,154369,160198,0,314567,Republican,FALSE,Don Bacon
+NE,Nebraska,03,NE03,59287,243481,0,302768,Republican,FALSE,Adrian Smith
+NV,Nevada,01,NV01,167885,143650,11364,322899,Democratic,FALSE,Dina Titus
+NV,Nevada,02,NV02,0,219919,179665,399584,Republican,FALSE,Mark Amodei
+NV,Nevada,03,NV03,191304,181084,0,372388,Democratic,FALSE,Susie Lee
+NV,Nevada,04,NV04,174926,148061,9219,332206,Democratic,FALSE,Steven Horsford
+NH,New Hampshire,01,NH01,218577,185936,295,404808,Democratic,FALSE,Chris Pappas
+NH,New Hampshire,02,NH02,211641,187810,367,399818,Democratic,FALSE,Maggie Goodlander
+NJ,New Jersey,01,NJ01,208808,144390,7862,361060,Democratic,FALSE,Donald Norcross
+NJ,New Jersey,02,NJ02,153117,215946,2557,371620,Republican,FALSE,Jeff Van Drew 
+NJ,New Jersey,03,NJ03,202034,169454,7996,379484,Democratic,FALSE,Herb Conaway
+NJ,New Jersey,04,NJ04,124803,265652,3773,394228,Republican,FALSE,Chris Smith
+NJ,New Jersey,05,NJ05,208359,165287,8243,381889,Democratic,FALSE,Josh Gottheimer
+NJ,New Jersey,06,NJ06,170275,122519,10887,303681,Democratic,FALSE,Frank Pallone
+NJ,New Jersey,07,NJ07,200025,223331,8042,431398,Republican,FALSE,Thomas Kean Jr.
+NJ,New Jersey,08,NJ08,116434,68152,12179,196765,Democratic,FALSE,Rob Menendez
+NJ,New Jersey,09,NJ09,130514,117939,8560,257013,Democratic,FALSE,Nellie Pou
+NJ,New Jersey,10,NJ10,182020,54405,8152,244577,Democratic,FALSE,LaMonica McIver
+NJ,New Jersey,11,NJ11,222583,164556,6612,393751,Democratic,FALSE,Mikie Sherrill 
+NJ,New Jersey,12,NJ12,196871,117222,7567,321660,Democratic,FALSE,Bonnie Watson Coleman
+NM,New Mexico,01,NM01,193203,149546,0,342749,Democratic,FALSE,Melanie Stansbury
+NM,New Mexico,02,NM02,138177,127145,0,265322,Democratic,FALSE,Gabe Vasquez
+NM,New Mexico,03,NM03,162342,126085,0,288427,Democratic,FALSE,Teresa Leger Fernandez
+NY,New York,01,NY01,183540,226285,0,409825,Republican,FALSE,Nick LaLota
+NY,New York,02,NY02,136371,202597,0,338968,Republican,FALSE,Andrew Garbarino
+NY,New York,03,NY03,187651,174693,0,362344,Democratic,FALSE,Tom Suozzi
+NY,New York,04,NY04,191760,169641,0,361401,Democratic,TRUE,Laura Gillen
+NY,New York,05,NY05,168425,62529,0,230954,Democratic,FALSE,Gregory Meeks
+NY,New York,06,NY06,74559,3272,0,77831,Democratic,FALSE,Grace Meng
+NY,New York,07,NY07,172795,48435,0,221230,Democratic,FALSE,Nydia Velázquez
+NY,New York,08,NY08,168036,54863,0,222899,Democratic,FALSE,Hakeem Jeffries
+NY,New York,09,NY09,173207,60064,0,233271,Democratic,FALSE,Yvette Clarke
+NY,New York,10,NY10,206206,37555,6747,250508,Democratic,FALSE,Dan Goldman
+NY,New York,11,NY11,93586,167099,0,260685,Republican,FALSE,Nicole Malliotakis
+NY,New York,12,NY12,260165,62989,0,323154,Democratic,FALSE,Jerry Nadler
+NY,New York,13,NY13,181800,35822,0,217622,Democratic,FALSE,Adriano Espaillat
+NY,New York,14,NY14,132714,59078,0,191792,Democratic,FALSE,Alexandria Ocasio-Cortez
+NY,New York,15,NY15,130392,36010,4086,170488,Democratic,FALSE,Ritchie Torres
+NY,New York,16,NY16,217668,86408,0,304076,Democratic,FALSE,George Latimer
+NY,New York,17,NY17,173899,197845,7530,379274,Republican,FALSE,Mike Lawler
+NY,New York,18,NY18,207106,138409,0,345515,Democratic,FALSE,Pat Ryan
+NY,New York,19,NY19,192647,184290,0,376937,Democratic,TRUE,Josh Riley
+NY,New York,20,NY20,221997,141151,0,363148,Democratic,FALSE,Paul Tonko 
+NY,New York,21,NY21,132447,215996,0,348443,Republican,FALSE,Elise Stefanik
+NY,New York,22,NY22,194450,161939,0,356389,Democratic,TRUE,Brandon Williams
+NY,New York,23,NY23,128397,246969,0,375366,Republican,FALSE,Nick Langworthy
+NY,New York,24,NY24,123317,235867,0,359184,Republican,FALSE,Claudia Tenney 
+NY,New York,25,NY25,219175,141195,0,360370,Democratic,FALSE,Joseph Morelle
+NY,New York,26,NY26,209131,111772,0,320903,Democratic,FALSE,Tim Kennedy
+NC,North Carolina,01,NC01,186341,180034,9949,376324,Democratic,FALSE,Don Davis
+NC,North Carolina,02,NC02,268662,128164,8691,405517,Democratic,FALSE,Deborah Ross 
+NC,North Carolina,03,NC03,0,248276,72565,320841,Republican,FALSE,Greg Murphy
+NC,North Carolina,04,NC04,308064,112084,8632,428780,Democratic,FALSE,Valerie Foushee
+NC,North Carolina,05,NC05,162390,238304,0,400694,Republican,FALSE,Virginia Foxx
+NC,North Carolina,06,NC06,0,233303,104017,337320,Republican,TRUE,Addison McDowell
+NC,North Carolina,07,NC07,179512,254022,0,433534,Republican,FALSE,David Rouzer
+NC,North Carolina,08,NC08,161709,238640,0,400349,Republican,FALSE,Mark Harris
+NC,North Carolina,09,NC09,140852,210042,22183,373077,Republican,FALSE,Richard Hudson
+NC,North Carolina,10,NC10,155383,233814,17498,406695,Republican,FALSE,Pat Harrigan
+NC,North Carolina,11,NC11,186977,245546,0,432523,Republican,FALSE,Chuck Edwards
+NC,North Carolina,12,NC12,259627,91128,0,350755,Democratic,FALSE,Alma Adams
+NC,North Carolina,13,NC13,171835,243655,0,415490,Republican,TRUE,Brad Knott
+NC,North Carolina,14,NC14,168269,232987,0,401256,Republican,TRUE,Tim Moore
+ND,North Dakota,00,ND00,109231,249101,1455,359787,Republican,FALSE,Julie Fedorchak
+OH,Ohio,01,OH01,213916,177993,0,391909,Democratic,FALSE,Greg Landsman
+OH,Ohio,02,OH02,96401,268211,0,364612,Republican,FALSE,David Taylor
+OH,Ohio,03,OH03,242632,100355,0,342987,Democratic,FALSE,Joyce Beatty
+OH,Ohio,04,OH04,125905,273297,0,399202,Republican,FALSE,Jim Jordan
+OH,Ohio,05,OH05,123024,255633,0,378657,Republican,FALSE,Bob Latta
+OH,Ohio,06,OH06,120738,242189,0,362927,Republican,FALSE,Michael Rulli
+OH,Ohio,07,OH07,141741,200962,50321,393024,Republican,FALSE,Max Miller
+OH,Ohio,08,OH08,140625,237503,0,378128,Republican,FALSE,Warren Davidson
+OH,Ohio,09,OH09,181098,178716,15381,375195,Democratic,FALSE,Marcy Kaptur
+OH,Ohio,10,OH10,145420,213695,11631,370746,Republican,FALSE,Mike Turner
+OH,Ohio,11,OH11,236883,59394,6107,302384,Democratic,FALSE,Shontel Brown
+OH,Ohio,12,OH12,119738,260450,0,380188,Republican,FALSE,Troy Balderson
+OH,Ohio,13,OH13,197466,188924,0,386390,Democratic,FALSE,Emilia Sykes 
+OH,Ohio,14,OH14,140431,243427,0,383858,Republican,FALSE,David Joyce
+OH,Ohio,15,OH15,151411,196338,0,347749,Republican,FALSE,Mike Carey 
+OK,Oklahoma,01,OK01,107903,188832,15766,312501,Republican,FALSE,Kevin Hern
+OK,Oklahoma,02,OK02,68841,238123,14061,321025,Republican,FALSE,Josh Brecheen
+OK,Oklahoma,03,OK03,0,0,0,0,Republican,FALSE,Frank Lucas
+OK,Oklahoma,04,OK04,86641,199962,19870,306473,Republican,FALSE,Tom Cole
+OK,Oklahoma,05,OK05,134471,207636,0,342107,Republican,FALSE,Stephanie Bice
+OR,Oregon,01,OR01,241556,98908,11527,351991,Democratic,FALSE,Suzanne Bonamici
+OR,Oregon,02,OR02,115337,224601,11551,351489,Republican,FALSE,Cliff Bentz
+OR,Oregon,03,OR03,226405,84344,23620,334369,Democratic,FALSE,Maxine Dexter
+OR,Oregon,04,OR04,195862,166430,16473,378765,Democratic,FALSE,Val Hoyle
+OR,Oregon,05,OR05,191365,180420,29508,401293,Democratic,TRUE,Janelle Bynum
+OR,Oregon,06,OR06,180869,157634,562,339065,Democratic,FALSE,Andrea Salinas
+PA,Pennsylvania,01,PA01,202042,261390,0,463432,Republican,FALSE,Brian Fitzpatrick
+PA,Pennsylvania,02,PA02,193691,77355,0,271046,Democratic,FALSE,Brendan Boyle
+PA,Pennsylvania,03,PA03,340223,0,0,340223,Democratic,FALSE,Dwight Evans
+PA,Pennsylvania,04,PA04,269066,186457,0,455523,Democratic,FALSE,Madeleine Dean
+PA,Pennsylvania,05,PA05,267754,142355,0,410109,Democratic,FALSE,Mary Gay Scanlon
+PA,Pennsylvania,06,PA06,235625,183638,0,419263,Democratic,FALSE,Chrissy Houlahan
+PA,Pennsylvania,07,PA07,199626,203688,0,403314,Republican,TRUE,Ryan Mackenzie
+PA,Pennsylvania,08,PA08,189411,195663,0,385074,Republican,TRUE,Rob Bresnahan Jr.
+PA,Pennsylvania,09,PA09,115523,276212,0,391735,Republican,FALSE,Dan Meuser
+PA,Pennsylvania,10,PA10,200434,205567,0,406001,Republican,FALSE,Scott Perry
+PA,Pennsylvania,11,PA11,149641,253672,0,403313,Republican,FALSE,Lloyd Smucker
+PA,Pennsylvania,12,PA12,234802,181426,0,416228,Democratic,FALSE,Summer Lee 
+PA,Pennsylvania,13,PA13,104823,301460,0,406283,Republican,FALSE,John Joyce
+PA,Pennsylvania,14,PA14,134755,268380,0,403135,Republican,FALSE,Guy Reschenthaler
+PA,Pennsylvania,15,PA15,111408,279027,0,390435,Republican,FALSE,Glenn Thompson
+PA,Pennsylvania,16,PA16,146709,256923,0,403632,Republican,FALSE,Mike Kelly
+PA,Pennsylvania,17,PA17,242838,207900,0,450738,Democratic,FALSE,Chris Deluzio
+RI,Rhode Island,01,RI01,139352,70742,11024,221118,Democratic,FALSE,Gabe Amo
+RI,Rhode Island,02,RI02,153439,109381,660,263480,Democratic,FALSE,Seth Magaziner
+SC,South Carlina,01,SC01,162582,227502,693,390777,Republican,FALSE,Nancy Mace
+SC,South Carlina,02,SC02,142985,211514,786,355285,Republican,FALSE,Joe Wilson
+SC,South Carlina,03,SC03,87735,248451,10527,346713,Republican,FALSE,Sheri Biggs
+SC,South Carlina,04,SC04,128976,206916,10522,346414,Republican,FALSE,William Timmons
+SC,South Carlina,05,SC05,130592,228260,557,359409,Republican,FALSE,Ralph Norman
+SC,South Carlina,06,SC06,182056,112360,11561,305977,Democratic,FALSE,Jim Clyburn
+SC,South Carlina,07,SC07,129522,240326,481,370329,Republican,FALSE,Russell Fry
+SD,South Daktota,00,SD00,117818,303630,0,421448,Republican,FALSE,Dusty Johnson
+TN,Tennessee,01,TN01,64021,257825,8353,330199,Republican,FALSE,Diana Harshbarger
+TN,Tennessee,02,TN02,111316,250782,0,362098,Republican,FALSE,Tim Burchett
+TN,Tennessee,03,TN03,102841,236519,10968,350328,Republican,FALSE,Chuck Fleischmann
+TN,Tennessee,04,TN04,83832,219133,10290,313255,Republican,FALSE,Scott DesJarlais
+TN,Tennessee,05,TN05,142387,205075,13252,360714,Republican,FALSE,Andy Ogles
+TN,Tennessee,06,TN06,106144,225543,0,331687,Republican,FALSE,John Rose
+TN,Tennessee,07,TN07,122764,191992,7900,322656,Republican,FALSE,Mark Green
+TN,Tennessee,08,TN08,85043,240411,6861,332315,Republican,FALSE,David Kustoff
+TN,Tennessee,09,TN09,159522,57411,6770,223703,Democratic,FALSE,Steve Cohen
+TX,Texas,01,TX01,0,258523,0,258523,Republican,FALSE,Nathaniel Moran
+TX,Texas,02,TX02,112252,214631,0,326883,Republican,FALSE,Dan Crenshaw
+TX,Texas,03,TX03,142953,237794,0,380747,Republican,FALSE,Keith Self
+TX,Texas,04,TX04,111696,241603,0,353299,Republican,FALSE,Pat Fallon
+TX,Texas,05,TX05,107712,192185,0,299897,Republican,FALSE,Lance Gooden
+TX,Texas,06,TX06,97711,192834,0,290545,Republican,FALSE,Jake Ellzey
+TX,Texas,07,TX07,94204,148406,0,242610,Republican,FALSE,Lizzie Fletcher
+TX,Texas,08,TX08,108754,233423,0,342177,Republican,FALSE,Morgan Luttrell 
+TX,Texas,09,TX09,184141,0,0,184141,Democratic,FALSE,Al Green
+TX,Texas,10,TX10,117937,220908,0,338845,Republican,FALSE,Michael McCaul
+TX,Texas,11,TX11,0,211975,0,211975,Republican,FALSE,August Pfluger
+TX,Texas,12,TX12,123666,215112,0,338778,Republican,FALSE,Craig Goldman
+TX,Texas,13,TX13,0,240622,0,240622,Republican,FALSE,Ronny Jackson
+TX,Texas,14,TX14,95875,210320,0,306195,Republican,FALSE,Randy Weber
+TX,Texas,15,TX15,95965,127804,0,223769,Republican,FALSE,Monica De La Cruz
+TX,Texas,16,TX16,131391,89281,0,220672,Democratic,FALSE,Veronica Escobar
+TX,Texas,17,TX17,97941,193101,0,291042,Republican,FALSE,Pete Sessions
+TX,Texas,18,TX18,151834,66810,76,218720,Democratic,FALSE,Sylvester Turner
+TX,Texas,19,TX19,0,214600,51275,265875,Republican,FALSE,Jodey Arrington
+TX,Texas,20,TX20,157890,0,0,157890,Democratic,FALSE,Joaquin Castro
+TX,Texas,21,TX21,153765,263744,8914,426423,Republican,FALSE,Chip Roy
+TX,Texas,22,TX22,127604,209285,0,336889,Republican,FALSE,Troy Nehls
+TX,Texas,23,TX23,109373,180720,0,290093,Republican,FALSE,Tony Gonzales
+TX,Texas,24,TX24,227108,149518,0,376626,Democratic,FALSE,Beth Van Duyne
+TX,Texas,25,TX25,0,263042,1661,264703,Republican,FALSE,Roger Williams
+TX,Texas,26,TX26,138558,241096,8773,388427,Republican,FALSE,Brandon Gill
+TX,Texas,27,TX27,94596,183980,0,278576,Republican,FALSE,Michael Cloud
+TX,Texas,28,TX28,125490,112117,0,237607,Democratic,FALSE,Henry Cuellar 
+TX,Texas,29,TX29,98842,52689,0,151531,Democratic,FALSE,Sylvia Garcia
+TX,Texas,30,TX30,197650,0,35175,232825,Democratic,FALSE,Jasmine Crockett
+TX,Texas,31,TX31,125959,228520,0,354479,Republican,FALSE,John Carter
+TX,Texas,32,TX32,140536,85941,5987,232464,Democratic,FALSE,Julie Johnson
+TX,Texas,33,TX33,113461,51607,0,165068,Democratic,FALSE,Marc Veasey
+TX,Texas,34,TX34,102680,97603,0,200283,Democratic,FALSE,Vicente Gonzalez
+TX,Texas,35,TX35,169896,82354,0,252250,Democratic,FALSE,Greg Casar
+TX,Texas,36,TX36,90458,205539,0,295997,Republican,FALSE,Brian Babin
+TX,Texas,37,TX37,252442,80267,0,332709,Democratic,FALSE,Lloyd Doggett
+TX,Texas,38,TX38,126408,214076,0,340484,Republican,FALSE,Wesley Hunt
+UT,Utah,01,UT01,117319,230975,17601,365895,Republican,FALSE,Blake Moore
+UT,Utah,02,UT02,205234,121114,27490,353838,Democratic,FALSE,Celeste Maloy
+UT,Utah,03,UT03,122780,242496,0,365276,Republican,FALSE,Mike Kennedy
+UT,Utah,04,UT04,109838,230627,23203,363668,Republican,FALSE,Burgess Owens
+VT,Vermont,00,VT00,218398,104451,27767,350616,Democratic,FALSE,Becca Balint
+VI,Virginia,01,VI01,208445,269657,804,478906,Republican,FALSE,Rob Wittman
+VI,Virginia,02,VI02,191666,207368,9668,408702,Republican,FALSE,Jen Kiggans
+VI,Virginia,03,VI03,219926,93801,670,314397,Democratic,FALSE,Bobby Scott
+VI,Virginia,04,VI04,252885,121814,809,375508,Democratic,FALSE,Jennifer McClellan
+VI,Virginia,05,VI05,184229,249564,2046,435839,Republican,FALSE,John McGuire
+VI,Virginia,06,VI06,141612,256933,8490,407035,Republican,FALSE,Ben Cline
+VI,Virginia,07,VI07,203336,192847,1116,397299,Democratic,FALSE,Eugene Vindman
+VI,Virginia,08,VI08,274593,94676,14646,383915,Democratic,FALSE,Don Beyer
+VI,Virginia,09,VI09,109570,290645,748,400963,Republican,FALSE,Morgan Griffith
+VI,Virginia,10,VI10,215131,196343,1538,413012,Democratic,FALSE,Suhas Subramanyam
+VI,Virginia,11,VI11,273529,134802,1855,410186,Democratic,FALSE,Gerry Connolly
+WA,Washington,01,WA01,227213,132538,907,360658,Democratic,FALSE,Suzan DelBene
+WA,Washington,02,WA02,263750,148167,1303,413220,Democratic,FALSE,Rick Larsen
+WA,Washington,03,WA03,215177,199054,1673,415904,Democratic,FALSE,Marie Gluesenkamp Perez
+WA,Washington,04,WA04,0,289652,5400,295052,Republican,FALSE,Dan Newhouse
+WA,Washington,05,WA05,156074,240619,593,397286,Republican,FALSE,Michael Baumgartner
+WA,Washington,06,WA06,239687,182182,753,422622,Democratic,FALSE,Emily Randall
+WA,Washington,07,WA07,352286,66220,1313,419819,Democratic,FALSE,Pramila Jayapal
+WA,Washington,08,WA08,224607,190675,995,416277,Democratic,FALSE,Kim Schrier
+WA,Washington,09,WA09,273381,5917,0,279298,Democratic,FALSE,Adam Smith
+WA,Washington,10,WA10,203732,143492,820,348044,Democratic,FALSE,Marilyn Strickland
+WV,West Virginia,01,WV01,90038,228491,25790,344319,Republican,FALSE,Carol Miller
+WV,West Virginia,02,WV02,110775,268190,0,378965,Republican,FALSE,Riley Moore
+WI,Wisconsin,01,WI01,172402,212515,8576,393493,Republican,FALSE,Bryan Steil 
+WI,Wisconsin,02,WI02,320317,136357,583,457257,Democratic,FALSE,Mark Pocan
+WI,Wisconsin,03,WI03,200808,212064,309,413181,Republican,FALSE,Derrick Van Orden
+WI,Wisconsin,04,WI04,74921,249938,9423,334282,Republican,FALSE,Gwen Moore
+WI,Wisconsin,05,WI05,165653,300521,508,466682,Republican,FALSE,Scott Fitzgerald
+WI,Wisconsin,06,WI06,159042,251889,418,411349,Republican,FALSE,Glenn Grothman
+WI,Wisconsin,07,WI07,156524,273553,307,430384,Republican,FALSE,Tom Tiffany
+WI,Wisconsin,08,WI08,178666,240040,272,418978,Republican,FALSE,Tony Wie
+WY,Wyoming,00,WY00,60778,184680,16090,261548,Republican,FALSE,Harriet Hageman
