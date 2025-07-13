@@ -1,0 +1,13 @@
+state_code,state,seat_class,special,candidate_name,party_code,party_name,ranked_choice_round,votes,percent,winner
+MA,Massachusetts,Class II,True,Edward J. Markey,DEM,Democratic,None,645429.0,54.80000679238234,True
+MA,Massachusetts,Class II,True,Gabriel E. Gomez,REP,Republican,None,525307.0,44.60107489450581,False
+MA,Massachusetts,Class II,True,Richard A. Heos,OTH,Other,None,4550.0,0.3863167457696194,False
+MA,Massachusetts,Class II,True,None,W,Write-In,None,4495.0,0.38164698290866783,False
+NJ,New Jersey,Class II,True,Cory A. Booker,DEM,Democratic,None,740742.0,54.92433595148959,True
+NJ,New Jersey,Class II,True,Steven M. Lonegan,REP,Republican,None,593684.0,44.02031944323954,False
+NJ,New Jersey,Class II,True,Edward C. Stackhouse,OTH,Other,None,5138.0,0.3809710238095768,False
+NJ,New Jersey,Class II,True,Robert DePasquale,IND,Independent,None,3137.0,0.2326014211153449,False
+NJ,New Jersey,Class II,True,Stuart David Meissner,OTH,Other,None,2051.0,0.1520769890684005,False
+NJ,New Jersey,Class II,True,Pablo Olivera,OTH,Other,None,1530.0,0.1134460230495625,False
+NJ,New Jersey,Class II,True,Antonio N. Sabas,OTH,Other,None,1336.0,0.0990613639177879,False
+NJ,New Jersey,Class II,True,Eugene Martin LaVergne,DRP,Democratic-Republican,None,1041.0,0.0771877843101925,False

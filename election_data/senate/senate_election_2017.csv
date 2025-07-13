@@ -1,0 +1,4 @@
+state_code,state,seat_class,special,candidate_name,party_code,party_name,ranked_choice_round,votes,percent,winner
+AL,Alabama,Class II,True,Gordon Douglas Jones,DEM,Democratic,None,673896.0,49.96559701049884,True
+AL,Alabama,Class II,True,Roy S. Moore,REP,Republican,None,651972.0,48.34005575656919,False
+AL,Alabama,Class II,True,None,W,Write-In,None,22852.0,1.694347232931965,False
