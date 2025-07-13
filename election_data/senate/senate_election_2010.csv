@@ -1,40 +1,259 @@
-state_code,state,office_seat_name,special,dem_candidate,rep_candidate,dem_votes,rep_votes,dem_per,rep_per,winner
-AK,Alaska,Class III,False,Scott T. McAdams,Joe Miller,60045.0,90839.0,23.50070253578236,35.55300720539485,Republican
-AL,Alabama,Class III,False,William G. Barnes,Richard C. Shelby,515619.0,968181.0,34.71015463490719,65.17547302286975,Republican
-AR,Arkansas,Class III,False,Blanche Lincoln,John Boozman,288156.0,451618.0,36.9451136408802,57.90293567465898,Republican
-AZ,Arizona,Class III,False,Rodney Britz Glassman,John McCain,592011.0,1005615.0,34.65124636812519,58.86007712100319,Republican
-CA,California,Class III,False,Barbara Boxer,Carly Fiorina,5218441.0,4217366.0,52.183575062798994,42.17298523223628,Democrat
-CO,Colorado,Class III,False,Michael Bennet,Ken Buck,851590.0,822731.0,48.050371102632425,46.42202217926452,Democrat
-CT,Connecticut,Class III,False,Richard Blumenthal,Linda McMahon,605204.0,498341.0,52.484270866305614,43.216938466675046,Democrat
-DE,Delaware,Class II,True,Christopher A. Coons,Christine O'Donnell,174012.0,123053.0,56.607308996037766,40.0299932986773,Democrat
-FL,Florida,Class III,False,Kendrick B. Meek,Marco Rubio,1092936.0,2645743.0,20.19801497143098,48.89468068080721,Republican
-GA,Georgia,Class III,False,Michael Thurmond,Johnny Isakson,996516.0,1489904.0,38.99864514659576,58.30738031149888,Republican
-HI,Hawaii,Class III,False,Daniel K. Inouye,Cam Cavasso,277228.0,79939.0,74.80861237563515,21.57114600507849,Democrat
-IA,Iowa,Class III,False,Roxanne Conlin,Chuck Grassley,371686.0,718215.0,33.30331710665079,64.35254999045753,Republican
-ID,Idaho,Class III,False,Tom Sullivan,Mike Crapo,112057.0,319953.0,24.92759103953017,71.17500500522769,Republican
-IL,Illinois,Class III,False,Alexi Giannoulias,Mark Kirk,1719478.0,1778698.0,46.41626487762227,48.01487283076432,Republican
-IL,Illinois,Class III,True,Alexi Giannoulias,Mark Kirk,1719478.0,1778698.0,46.41626487762227,48.01487283076432,Republican
-IN,Indiana,Class III,False,Brad Ellsworth,Daniel Coats,697775.0,952116.0,39.99900256867229,54.57875436877788,Republican
-KS,Kansas,Class III,False,Lisa Johnston,Jerry Moran,220971.0,587175.0,26.37854963399436,70.09437836340803,Republican
-KY,Kentucky,Class III,False,Jack Conway,Rand Paul,600052.0,755706.0,44.24848978243429,55.726585728444,Republican
-LA,Louisiana,Class III,False,Charlie Melancon,David Vitter,476572.0,715415.0,37.67385457954741,56.5548136987211,Republican
-MA,Massachusetts,Class I,True,Martha Coakley,Scott Brown,1060861.0,1168178.0,47.09533326644713,51.859510552778985,Republican
-MD,Maryland,Class III,False,Barbara A. Mikulski,Eric Wargotz,1140531.0,655666.0,62.19298331713797,35.753368036129295,Democrat
-MO,Missouri,Class III,False,Robin Carnahan,Roy Blunt,789736.0,1054160.0,40.6263905686458,54.22915490979727,Republican
-NC,North Carolina,Class III,False,Elaine Marshall,Richard Burr,1145074.0,1458046.0,43.04661628470433,54.81213151940224,Republican
-ND,North Dakota,Class III,False,Tracy Potter,John Hoeven,52955.0,181689.0,22.20018949080634,76.16901573779839,Republican
-NH,New Hampshire,Class III,False,Paul W. Hodes,Kelly Ayotte,167545.0,273218.0,36.846561544720814,60.08620879241714,Republican
-NV,Nevada,Class III,False,Harry Reid,Sharron Angle,362785.0,321361.0,50.28874250766561,44.54660633985949,Democrat
-NY,New York,Class I,True,Kirsten E. Gillibrand,Joseph J. DioGuardi,2837684.0,1338308.0,59.64484454986564,28.129690486975147,Democrat
-NY,New York,Class III,False,Charles E. Schumer,Jay Townsend,3047880.0,1239605.0,63.97868636593681,26.020807745924085,Democrat
-OH,Ohio,Class III,False,Lee Fisher,Rob Portman,1503297.0,2168742.0,39.40388949379544,56.84629857476794,Republican
-OK,Oklahoma,Class III,False,Jim Rogers,Tom Coburn,265814.0,718482.0,26.13318966407151,70.63670979038511,Republican
-OR,Oregon,Class III,False,Ron Wyden,Jim Huffman,825507.0,566199.0,57.22403070038015,39.24883611952962,Democrat
-PA,Pennsylvania,Class III,False,Joe Sestak,Patrick J. Toomey,1948716.0,2028945.0,48.99150530927598,51.008494690724014,Republican
-SC,South Carolina,Class III,False,Alvin Greene,Jim DeMint,364598.0,810771.0,27.646319288683447,61.47821418659776,Republican
-SD,South Dakota,Class III,False,None,John R. Thune,0.0,227947.0,0.0,100.0,Republican
-UT,Utah,Class III,False,Samuel Frank Granato,Mike Lee,191732.0,360403.0,32.76182013909062,61.5831382533363,Republican
-VT,Vermont,Class III,False,Patrick J. Leahy,Leonard Wheeler Britton,151281.0,72699.0,64.32616996487766,30.91233023497096,Democrat
-WA,Washington,Class III,False,Patty Murray,Dino Rossi,1314930.0,1196164.0,52.3648258488133,47.635174151186696,Democrat
-WI,Wisconsin,Class III,False,Russ Feingold,Ron Johnson,1020958.0,1125999.0,47.019915434358005,51.85754728321016,Republican
-WV,West Virginia,Class I,True,"Joe Manchin, III",John Raese,283358.0,230013.0,53.46901960192321,43.40293764671251,Democrat
+state_code,state,seat_class,special,candidate_name,party_code,party_name,ranked_choice_round,votes,percent,winner
+AK,Alaska,Class III,False,Lisa Murkowski,W,Write-In,None,101091.0,39.56548455399741,True
+AK,Alaska,Class III,False,Joe Miller,REP,Republican,None,90839.0,35.55300720539485,False
+AK,Alaska,Class III,False,Scott T. McAdams,DEM,Democratic,None,60045.0,23.50070253578236,False
+AK,Alaska,Class III,False,Fredrick David Haase,LIB,Libertarian,None,1459.0,0.5710304771372547,False
+AK,Alaska,Class III,False,Robert Timothy Carter,UN,Unity,None,927.0,0.362813743869935,False
+AK,Alaska,Class III,False,None,W,Write-In,None,663.0,0.2594881469102123,False
+AK,Alaska,Class III,False,Ted Gianoutsos,UN,Unity,None,458.0,0.1792542553316399,False
+AK,Alaska,Class III,False,Joe Miller,W,Write-In,None,21.0,0.0082190815763415,False
+AL,Alabama,Class III,False,Richard C. Shelby,REP,Republican,None,968181.0,65.17547302286975,True
+AL,Alabama,Class III,False,William G. Barnes,DEM,Democratic,None,515619.0,34.71015463490719,False
+AL,Alabama,Class III,False,None,W,Write-In,None,1699.0,0.1143723422230509,False
+AR,Arkansas,Class III,False,John Boozman,REP,Republican,None,451618.0,57.90293567465898,True
+AR,Arkansas,Class III,False,Blanche Lincoln,DEM,Democratic,None,288156.0,36.9451136408802,False
+AR,Arkansas,Class III,False,Trevor Drown,IND,Independent,None,25234.0,3.235306561771995,False
+AR,Arkansas,Class III,False,John Laney Gray,GRE,Green,None,14430.0,1.8501019928021676,False
+AR,Arkansas,Class III,False,None,W,Write-In,None,376.0,0.0482077858138333,False
+AR,Arkansas,Class III,False,Stephan Hercher,W,Write-In,None,143.0,0.0183343440728142,False
+AZ,Arizona,Class III,False,John McCain,REP,Republican,None,1005615.0,58.86007712100319,True
+AZ,Arizona,Class III,False,Rodney Britz Glassman,DEM,Democratic,None,592011.0,34.65124636812519,False
+AZ,Arizona,Class III,False,David F. Nolan,LIB,Libertarian,None,80097.0,4.688191402436312,False
+AZ,Arizona,Class III,False,Jerry Joslyn,GRE,Green,None,24603.0,1.4400486044938086,False
+AZ,Arizona,Class III,False,Ian Gilyeat,W,Write-In,None,5938.0,0.3475595908419394,False
+AZ,Arizona,Class III,False,Loyd Ellis,W,Write-In,None,160.0,0.0093650277087757,False
+AZ,Arizona,Class III,False,Santos Chavez,W,Write-In,None,39.0,0.002282725504014,False
+AZ,Arizona,Class III,False,Sydney Dudikoff,W,Write-In,None,14.0,0.0008194399245178,False
+AZ,Arizona,Class III,False,'Ray J' Raymond Caplette,W,Write-In,None,7.0,0.0004097199622589,False
+CA,California,Class III,False,Barbara Boxer,DEM,Democratic,None,5218441.0,52.183575062798994,True
+CA,California,Class III,False,Carly Fiorina,REP,Republican,None,4217366.0,42.17298523223628,False
+CA,California,Class III,False,Gail Katherine Lightfoot,LIB,Libertarian,None,175242.0,1.7523919617286123,False
+CA,California,Class III,False,Marsha J. Feinland,PAF,Peace and Freedom,None,135093.0,1.3509083854658326,False
+CA,California,Class III,False,Duane Roberts,GRE,Green,None,128510.0,1.2850794387289803,False
+CA,California,Class III,False,Edward C. Noonan,AIP,American Independent,None,125441.0,1.2543899297611238,False
+CA,California,Class III,False,James Harris,W,Write-In,None,41.0,0.0004099934401049,False
+CA,California,Class III,False,Constant G. Vlakancic,W,Write-In,None,11.0,0.0001099982400281,False
+CA,California,Class III,False,Jerry Leon Carroll,W,Write-In,None,10.0,9.99984000255996e-05,False
+CA,California,Class III,False,Hans J. Kugler,W,Write-In,None,5.0,4.99992000127998e-05,False
+CO,Colorado,Class III,False,Michael Bennet,DEM,Democratic,None,851590.0,48.050371102632425,True
+CO,Colorado,Class III,False,Ken Buck,REP,Republican,None,822731.0,46.42202217926452,False
+CO,Colorado,Class III,False,Robert A. Kinsey,GRE,Green,None,38768.0,2.187457329121824,False
+CO,Colorado,Class III,False,Maclyn Stringer,LIB,Libertarian,None,22589.0,1.27456855157689,False
+CO,Colorado,Class III,False,Jason Napolitano,OTH,Other,None,19415.0,1.0954778179142644,False
+CO,Colorado,Class III,False,Charley Miller,UN,Unity,None,11330.0,0.6392873384995423,False
+CO,Colorado,Class III,False,Jorge H. Moromisato,UN,Unity,None,5767.0,0.3253989480253187,False
+CO,Colorado,Class III,False,Robert Rank,W,Write-In,None,67.0,0.0037804282153106,False
+CO,Colorado,Class III,False,Michele M. Newman,W,Write-In,None,19.0,0.0010720617327,False
+CO,Colorado,Class III,False,Bruce Edward Lohmiller,W,Write-In,None,10.0,0.0005642430172105,False
+CT,Connecticut,Class III,False,Richard Blumenthal,DEM,Democratic,None,605204.0,52.484270866305614,True
+CT,Connecticut,Class III,False,Linda McMahon,REP,Republican,None,498341.0,43.216938466675046,False
+CT,Connecticut,Class III,False,Richard Blumenthal,WFP,Working Families,None,30836.0,2.6741478516886867,True
+CT,Connecticut,Class III,False,Warren Bruce Mosler,IND,Independent,None,11275.0,0.9777862572249948,False
+CT,Connecticut,Class III,False,John Mertens,OTH,Other,None,6735.0,0.5840701057570147,False
+CT,Connecticut,Class III,False,Brian Hill,W,Write-In,None,559.0,0.0484773851697358,False
+CT,Connecticut,Class III,False,Jeffery Russell,W,Write-In,None,45.0,0.0039024728669733,False
+CT,Connecticut,Class III,False,Todd Vachon,W,Write-In,None,45.0,0.0039024728669733,False
+CT,Connecticut,Class III,False,Carl E. Vassar,W,Write-In,None,31.0,0.0026883701972483,False
+CT,Connecticut,Class III,False,Jay J. Giles,W,Write-In,None,17.0,0.0014742675275232,False
+CT,Connecticut,Class III,False,John M. Traceski,W,Write-In,None,15.0,0.0013008242889911,False
+CT,Connecticut,Class III,False,Matthew Coleman,W,Write-In,None,7.0,0.0006070513348625,False
+CT,Connecticut,Class III,False,David Olszta,W,Write-In,None,5.0,0.0004336080963303,False
+DE,Delaware,Class II,True,Christopher A. Coons,DEM,Democratic,None,174012.0,56.607308996037766,True
+DE,Delaware,Class II,True,Christine O'Donnell,REP,Republican,None,123053.0,40.0299932986773,False
+DE,Delaware,Class II,True,Glenn A. Miller,IDE,Independent Democrat,None,8201.0,2.66784210902987,False
+DE,Delaware,Class II,True,James W. Rash,LIB,Libertarian,None,2101.0,0.6834698538070669,False
+DE,Delaware,Class II,True,Maurice F. Bourgeois,W,Write-In,None,25.0,0.0081326731771426,False
+DE,Delaware,Class II,True,Samtra Devard,W,Write-In,None,10.0,0.003253069270857,False
+FL,Florida,Class III,False,Marco Rubio,REP,Republican,None,2645743.0,48.89468068080721,True
+FL,Florida,Class III,False,Charlie Crist,NPA,No Party Affiliation,None,1607549.0,29.7083258025254,False
+FL,Florida,Class III,False,Kendrick B. Meek,DEM,Democratic,None,1092936.0,20.19801497143098,False
+FL,Florida,Class III,False,Alexander Andrew Snitker,LIB,Libertarian,None,24850.0,0.4592406801862687,False
+FL,Florida,Class III,False,Sue Askeland,NPA,No Party Affiliation,None,15340.0,0.2834910275274592,False
+FL,Florida,Class III,False,Rick Tyler,NPA,No Party Affiliation,None,7397.0,0.1367003344602748,False
+FL,Florida,Class III,False,Bernie DeCastro,CON,Constitution,None,4792.0,0.0885586052093601,False
+FL,Florida,Class III,False,Lewis J. Armstrong,NPA,No Party Affiliation,None,4443.0,0.0821089071254564,False
+FL,Florida,Class III,False,Bobbie Bean,NPA,No Party Affiliation,None,4301.0,0.0794846746672491,False
+FL,Florida,Class III,False,Bruce Ray Riggs,NPA,No Party Affiliation,None,3647.0,0.0673984209512805,False
+FL,Florida,Class III,False,Piotr Blass,W,Write-In,None,47.0,0.000868583982646,False
+FL,Florida,Class III,False,Belinda Gail Quarterman-Noah,W,Write-In,None,18.0,0.0003326491848431,False
+FL,Florida,Class III,False,Richard Lock,W,Write-In,None,18.0,0.0003326491848431,False
+FL,Florida,Class III,False,George Drake,W,Write-In,None,13.0,0.0002402466334978,False
+FL,Florida,Class III,False,Robert Monroe,W,Write-In,None,6.0,0.0001108830616143,False
+FL,Florida,Class III,False,Howard Knepper,W,Write-In,None,4.0,7.392204107626057e-05,False
+FL,Florida,Class III,False,Carol Ann Joyce LaRosa,W,Write-In,None,2.0,3.6961020538130286e-05,False
+GA,Georgia,Class III,False,Johnny Isakson,REP,Republican,None,1489904.0,58.30738031149888,True
+GA,Georgia,Class III,False,Michael Thurmond,DEM,Democratic,None,996516.0,38.99864514659576,False
+GA,Georgia,Class III,False,Chuck Donovan,LIB,Libertarian,None,68750.0,2.690530662657156,False
+GA,Georgia,Class III,False,Steve Davis,W,Write-In,None,52.0,0.0020350195557552,False
+GA,Georgia,Class III,False,Raymond Beckworth,W,Write-In,None,24.0,0.0009392397949639,False
+GA,Georgia,Class III,False,Brian Russell Brown,W,Write-In,None,12.0,0.0004696198974819,False
+HI,Hawaii,Class III,False,Daniel K. Inouye,DEM,Democratic,None,277228.0,74.80861237563515,True
+HI,Hawaii,Class III,False,Cam Cavasso,REP,Republican,None,79939.0,21.57114600507849,False
+HI,Hawaii,Class III,False,Jim Brewer,GRE,Green,None,7762.0,2.09453752600632,False
+HI,Hawaii,Class III,False,Lloyd Jeffrey Mallan,LIB,Libertarian,None,2957.0,0.7979319072920236,False
+HI,Hawaii,Class III,False,Jeff S. Jarrett,N,Nonpartisan,None,2697.0,0.7277721859880243,False
+IA,Iowa,Class III,False,Chuck Grassley,REP,Republican,None,718215.0,64.35254999045753,True
+IA,Iowa,Class III,False,Roxanne Conlin,DEM,Democratic,None,371686.0,33.30331710665079,False
+IA,Iowa,Class III,False,John Heiderscheit,LIB,Libertarian,None,25290.0,2.2660011128404043,False
+IA,Iowa,Class III,False,None,W,Write-In,None,872.0,0.0781317900512784,False
+ID,Idaho,Class III,False,Mike Crapo,REP,Republican,None,319953.0,71.17500500522769,True
+ID,Idaho,Class III,False,Tom Sullivan,DEM,Democratic,None,112057.0,24.92759103953017,False
+ID,Idaho,Class III,False,Randy Lynn Bergquist,CON,Constitution,None,17429.0,3.877160589949503,False
+ID,Idaho,Class III,False,Frederick R. Reinisch,W,Write-In,None,91.0,0.0202433652926389,False
+IL,Illinois,Class III,False,Mark Kirk,REP,Republican,None,1778698.0,48.01487283076432,True
+IL,Illinois,Class III,True,Mark Kirk,REP,Republican,None,1778698.0,48.01487283076432,True
+IL,Illinois,Class III,False,Alexi Giannoulias,DEM,Democratic,None,1719478.0,46.41626487762227,False
+IL,Illinois,Class III,True,Alexi Giannoulias,DEM,Democratic,None,1719478.0,46.41626487762227,False
+IL,Illinois,Class III,False,LeAlan M. Jones,GRE,Green,None,117914.0,3.1830168555689298,False
+IL,Illinois,Class III,True,LeAlan M. Jones,GRE,Green,None,117914.0,3.1830168555689298,False
+IL,Illinois,Class III,False,Mike Labno,LIB,Libertarian,None,87247.0,2.3551798056025786,False
+IL,Illinois,Class III,True,Mike Labno,LIB,Libertarian,None,87247.0,2.3551798056025786,False
+IL,Illinois,Class III,False,Robert L. Zadek,W,Write-In,None,561.0,0.015143854469988,False
+IL,Illinois,Class III,True,Robert L. Zadek,W,Write-In,None,561.0,0.015143854469988,False
+IL,Illinois,Class III,False,Will Boyd,W,Write-In,None,468.0,0.0126333759214873,False
+IL,Illinois,Class III,True,Will Boyd,W,Write-In,None,468.0,0.0126333759214873,False
+IL,Illinois,Class III,False,Corey Dabney,W,Write-In,None,33.0,0.0008908149688228,False
+IL,Illinois,Class III,True,Corey Dabney,W,Write-In,None,33.0,0.0008908149688228,False
+IL,Illinois,Class III,False,Susanne Atanus,W,Write-In,None,19.0,0.0005128934668979,False
+IL,Illinois,Class III,True,Susanne Atanus,W,Write-In,None,19.0,0.0005128934668979,False
+IL,Illinois,Class III,False,Shon-Tiyon Taiwan Horton,W,Write-In,None,16.0,0.000431910287914,False
+IL,Illinois,Class III,True,Shon-Tiyon Taiwan Horton,W,Write-In,None,16.0,0.000431910287914,False
+IL,Illinois,Class III,False,Avner Nager,W,Write-In,None,15.0,0.0004049158949194,False
+IL,Illinois,Class III,True,Avner Nager,W,Write-In,None,15.0,0.0004049158949194,False
+IL,Illinois,Class III,False,Stan Jagla,W,Write-In,None,12.0,0.0003239327159355,False
+IL,Illinois,Class III,True,Stan Jagla,W,Write-In,None,12.0,0.0003239327159355,False
+IL,Illinois,Class III,False,Darren Raichart,W,Write-In,None,9.0,0.0002429495369516,False
+IL,Illinois,Class III,True,Darren Raichart,W,Write-In,None,9.0,0.0002429495369516,False
+IL,Illinois,Class III,False,Lowell Martin Seida,W,Write-In,None,3.0,8.098317898389325e-05,False
+IL,Illinois,Class III,True,Lowell Martin Seida,W,Write-In,None,3.0,8.098317898389325e-05,False
+IN,Indiana,Class III,False,Daniel Coats,REP,Republican,None,952116.0,54.57875436877788,True
+IN,Indiana,Class III,False,Brad Ellsworth,DEM,Democratic,None,697775.0,39.99900256867229,False
+IN,Indiana,Class III,False,Rebecca Sink-Burris,LIB,Libertarian,None,94330.0,5.407338916273665,False
+IN,Indiana,Class III,False,Jim Miller,W,Write-In,None,161.0,0.0092291059633208,False
+IN,Indiana,Class III,False,Jack Rooney,W,Write-In,None,99.0,0.0056750403128494,False
+KS,Kansas,Class III,False,Jerry Moran,REP,Republican,None,587175.0,70.09437836340803,True
+KS,Kansas,Class III,False,Lisa Johnston,DEM,Democratic,None,220971.0,26.37854963399436,False
+KS,Kansas,Class III,False,Michael William Dann,LIB,Libertarian,None,17922.0,2.139449821652827,False
+KS,Kansas,Class III,False,Joseph K. Bellis,REF,Reform,None,11624.0,1.3876221809447864,False
+KY,Kentucky,Class III,False,Rand Paul,REP,Republican,None,755706.0,55.726585728444,True
+KY,Kentucky,Class III,False,Jack Conway,DEM,Democratic,None,600052.0,44.24848978243429,False
+KY,Kentucky,Class III,False,Billy Ray Wilson,W,Write-In,None,338.0,0.024924489121714,False
+LA,Louisiana,Class III,False,David Vitter,REP,Republican,None,715415.0,56.5548136987211,True
+LA,Louisiana,Class III,False,Charlie Melancon,DEM,Democratic,None,476572.0,37.67385457954741,False
+LA,Louisiana,Class III,False,Randall T. Hayes,LIB,Libertarian,None,13957.0,1.1033253912666778,False
+LA,Louisiana,Class III,False,Michael Karlton Brown,NPA,No Party Affiliation,None,9973.0,0.7883831860072064,False
+LA,Louisiana,Class III,False,Michael Lane Spears,OTH,Other,None,9190.0,0.7264856592205181,False
+LA,Louisiana,Class III,False,Ernest D. Woolon,OTH,Other,None,8167.0,0.6456157104302471,False
+LA,Louisiana,Class III,False,RA Galan,NPA,No Party Affiliation,None,7474.0,0.5908328418949023,False
+LA,Louisiana,Class III,False,William R. McShan,REF,Reform,None,5879.0,0.464745287329426,False
+LA,Louisiana,Class III,False,William Robert Lang,OTH,Other,None,5734.0,0.4532827823689282,False
+LA,Louisiana,Class III,False,Milton Gordon,NPA,No Party Affiliation,None,4810.0,0.3802389576551351,False
+LA,Louisiana,Class III,False,Thomas G. LaFargue,OTH,Other,None,4043.0,0.319606259002019,False
+LA,Louisiana,Class III,False,Sam Houston Melton,NPA,No Party Affiliation,None,3780.0,0.2988156465564263,False
+MA,Massachusetts,Class I,True,Scott Brown,REP,Republican,None,1168178.0,51.859510552778985,True
+MA,Massachusetts,Class I,True,Martha Coakley,DEM,Democratic,None,1060861.0,47.09533326644713,False
+MA,Massachusetts,Class I,True,Joseph L. Kennedy,OTH,Other,None,22388.0,0.993881687769857,False
+MA,Massachusetts,Class I,True,None,W,Write-In,None,2300.0,0.10210505100369249,False
+MD,Maryland,Class III,False,Barbara A. Mikulski,DEM,Democratic,None,1140531.0,62.19298331713797,True
+MD,Maryland,Class III,False,Eric Wargotz,REP,Republican,None,655666.0,35.753368036129295,False
+MD,Maryland,Class III,False,Kenniss Henry,GRE,Green,None,20717.0,1.1296948836823788,False
+MD,Maryland,Class III,False,Richard Shawver,CON,Constitution,None,14746.0,0.804097154741534,False
+MD,Maryland,Class III,False,None,W,Write-In,None,1644.0,0.0896470719106931,False
+MD,Maryland,Class III,False,Claud L. Ashbury,W,Write-In,None,204.0,0.0111240892151955,False
+MD,Maryland,Class III,False,Donald Kaplan,W,Write-In,None,110.0,0.0059982834003505,False
+MD,Maryland,Class III,False,James T. Lynch,W,Write-In,None,84.0,0.004580507323904,False
+MD,Maryland,Class III,False,Lih Y. Young,W,Write-In,None,80.0,0.0043623879275276,False
+MD,Maryland,Class III,False,Denise L. Whittington,W,Write-In,None,56.0,0.0030536715492693,False
+MD,Maryland,Class III,False,Robert J. Evans,W,Write-In,None,14.0,0.0007634178873173,False
+MD,Maryland,Class III,False,Mary Catherine Podlesak,W,Write-In,None,6.0,0.0003271790945645,False
+MO,Missouri,Class III,False,Roy Blunt,REP,Republican,None,1054160.0,54.22915490979727,True
+MO,Missouri,Class III,False,Robin Carnahan,DEM,Democratic,None,789736.0,40.6263905686458,False
+MO,Missouri,Class III,False,Jonathan Dine,LIB,Libertarian,None,58663.0,3.0178008219562846,False
+MO,Missouri,Class III,False,Jerry Garth Beck,CON,Constitution,None,41309.0,2.125058966540957,False
+MO,Missouri,Class III,False,Dale Michael Hoinoski,W,Write-In,None,14.0,0.0007202020269571,False
+MO,Missouri,Class III,False,Frazier Glenn Miller,W,Write-In,None,7.0,0.0003601010134785,False
+MO,Missouri,Class III,False,Jeff Wirick,W,Write-In,None,4.0,0.000205772007702,False
+MO,Missouri,Class III,False,Charlie L. Bailey,W,Write-In,None,3.0,0.0001543290057765,False
+MO,Missouri,Class III,False,Richie L. Wolfe,W,Write-In,None,2.0,0.000102886003851,False
+MO,Missouri,Class III,False,Mark S. Memoly,W,Write-In,None,1.0,5.144300192551156e-05,False
+NC,North Carolina,Class III,False,Richard Burr,REP,Republican,None,1458046.0,54.81213151940224,True
+NC,North Carolina,Class III,False,Elaine Marshall,DEM,Democratic,None,1145074.0,43.04661628470433,False
+NC,North Carolina,Class III,False,Michael A. Beitler,LIB,Libertarian,None,55687.0,2.093434067183719,False
+NC,North Carolina,Class III,False,None,W,Write-In,None,1272.0,0.0478181287097112,False
+ND,North Dakota,Class III,False,John Hoeven,REP,Republican,None,181689.0,76.16901573779839,True
+ND,North Dakota,Class III,False,Tracy Potter,DEM,Democratic,None,52955.0,22.20018949080634,False
+ND,North Dakota,Class III,False,Keith J. Hanson,LIB,Libertarian,None,3890.0,1.6307947713952726,False
+NH,New Hampshire,Class III,False,Kelly Ayotte,REP,Republican,None,273218.0,60.08620879241714,True
+NH,New Hampshire,Class III,False,Paul W. Hodes,DEM,Democratic,None,167545.0,36.846561544720814,False
+NH,New Hampshire,Class III,False,Chris Booth,IND,Independent,None,9194.0,2.021948054804161,False
+NH,New Hampshire,Class III,False,Ken Blevens,LIB,Libertarian,None,4753.0,1.045281608057883,False
+NV,Nevada,Class III,False,Harry Reid,DEM,Democratic,None,362785.0,50.28874250766561,True
+NV,Nevada,Class III,False,Sharron Angle,REP,Republican,None,321361.0,44.54660633985949,False
+NV,Nevada,Class III,False,None,W,Write-In,None,16197.0,2.2452051832260422,False
+NV,Nevada,Class III,False,Scott Ashjian,TEA,Tea Party,None,5811.0,0.8055125837949333,False
+NV,Nevada,Class III,False,Michael L. Haines,IND,Independent,None,4261.0,0.5906537806832233,False
+NV,Nevada,Class III,False,Timothy Fasano,IAP,Independent American,None,3185.0,0.4415001857489007,False
+NV,Nevada,Class III,False,Jesse Holland,IND,Independent,None,3175.0,0.4401139999223736,False
+NV,Nevada,Class III,False,Jeffrey C. Reeves,IND,Independent,None,2510.0,0.3479326424583174,False
+NV,Nevada,Class III,False,Wil Stand,IND,Independent,None,2119.0,0.2937327766411054,False
+NY,New York,Class III,False,Charles E. Schumer,DEM,Democratic,None,3047880.0,63.97868636593681,True
+NY,New York,Class I,True,Kirsten E. Gillibrand,DEM,Democratic,None,2837684.0,59.64484454986564,True
+NY,New York,Class I,True,Joseph J. DioGuardi,REP,Republican,None,1338308.0,28.129690486975147,False
+NY,New York,Class III,False,Jay Townsend,REP,Republican,None,1239605.0,26.020807745924085,False
+NY,New York,Class I,True,None,W,Write-In,None,250033.0,5.255405259125595,False
+NY,New York,Class I,True,Joseph J. DioGuardi,UST,U.S. Taxpayers,None,244385.0,5.13669081381821,False
+NY,New York,Class III,False,Jay Townsend,CRV,Civic Reform,None,240818.0,5.055060991007576,False
+NY,New York,Class III,False,None,W,Write-In,None,168384.0,3.5345837516706378,False
+NY,New York,Class III,False,Colia Clark,GRE,Green,None,42341.0,0.8887887841450879,False
+NY,New York,Class I,True,Cecile Ann Lawrence,GRE,Green,None,35489.0,0.7459378451688706,False
+NY,New York,Class III,False,Randolph A. Credico,LIB,Libertarian,None,24871.0,0.5220723613158045,False
+NY,New York,Class I,True,John Clifton,LIB,Libertarian,None,18414.0,0.3870410403488288,False
+NY,New York,Class I,True,Joseph Huff,OTH,Other,None,17019.0,0.3577197494133114,False
+NY,New York,Class I,True,Vivia M. Morgan,OTH,Other,None,11787.0,0.2477491442702099,False
+NY,New York,Class I,True,Bruce Blakeman,OTH,Other,None,4516.0,0.0949211110141908,False
+OH,Ohio,Class III,False,Rob Portman,REP,Republican,None,2168742.0,56.84629857476794,True
+OH,Ohio,Class III,False,Lee Fisher,DEM,Democratic,None,1503297.0,39.40388949379544,False
+OH,Ohio,Class III,False,Eric W. Deaton,CON,Constitution,None,65856.0,1.7261941895070587,False
+OH,Ohio,Class III,False,Michael L. Pryce,IND,Independent,None,50101.0,1.3132296994729886,False
+OH,Ohio,Class III,False,Daniel H. La Botz,SUS,Sustaining,None,26454.0,0.6934028955481616,False
+OH,Ohio,Class III,False,Arthur T. Sullivan,W,Write-In,None,648.0,0.0169851469084149,False
+OK,Oklahoma,Class III,False,Tom Coburn,REP,Republican,None,718482.0,70.63670979038511,True
+OK,Oklahoma,Class III,False,Jim Rogers,DEM,Democratic,None,265814.0,26.13318966407151,False
+OK,Oklahoma,Class III,False,Stephen P. Wallace,IND,Independent,None,25048.0,2.4625645553118467,False
+OK,Oklahoma,Class III,False,Ronald F. Dwyer,IND,Independent,None,7807.0,0.7675359902315388,False
+OR,Oregon,Class III,False,Ron Wyden,DEM,Democratic,None,825507.0,57.22403070038015,True
+OR,Oregon,Class III,False,Jim Huffman,REP,Republican,None,566199.0,39.24883611952962,False
+OR,Oregon,Class III,False,Bruce W. Cronk,WFP,Working Families,None,18940.0,1.3129181720629868,False
+OR,Oregon,Class III,False,Marc L. Delphine,LIB,Libertarian,None,16028.0,1.111058736104834,False
+OR,Oregon,Class III,False,Richard K. Staggenborg,PRO,Prohibition,None,14466.0,1.0027811128333246,False
+OR,Oregon,Class III,False,None,W,Write-In,None,1448.0,0.1003751590890815,False
+PA,Pennsylvania,Class III,False,Patrick J. Toomey,REP,Republican,None,2028945.0,51.008494690724014,True
+PA,Pennsylvania,Class III,False,Joe Sestak,DEM,Democratic,None,1948716.0,48.99150530927598,False
+SC,South Carolina,Class III,False,Jim DeMint,REP,Republican,None,810771.0,61.47821418659776,True
+SC,South Carolina,Class III,False,Alvin Greene,DEM,Democratic,None,364598.0,27.646319288683447,False
+SC,South Carolina,Class III,False,Thomas Clements,GRE,Green,None,121472.0,9.21083960042281,False
+SC,South Carolina,Class III,False,None,W,Write-In,None,21953.0,1.6646269242959857,False
+SD,South Dakota,Class III,False,John R. Thune,REP,Republican,None,227947.0,100.0,True
+UT,Utah,Class III,False,Mike Lee,REP,Republican,None,360403.0,61.5831382533363,True
+UT,Utah,Class III,False,Samuel Frank Granato,DEM,Democratic,None,191732.0,32.76182013909062,False
+UT,Utah,Class III,False,Scott N. Bradley,CON,Constitution,None,33095.0,5.65504160757309,False
+VT,Vermont,Class III,False,Patrick J. Leahy,DEM,Democratic,None,151281.0,64.32616996487766,True
+VT,Vermont,Class III,False,Leonard Wheeler Britton,REP,Republican,None,72699.0,30.91233023497096,False
+VT,Vermont,Class III,False,Daniel Freilich,IND,Independent,None,3544.0,1.5069436767044535,False
+VT,Vermont,Class III,False,Cris Ericson,OTH,Other,None,2731.0,1.161248075925469,False
+VT,Vermont,Class III,False,Stephen J. Cain,IND,Independent,None,2356.0,1.0017943855292586,False
+VT,Vermont,Class III,False,Pete Diamondstone,SUS,Sustaining,None,1433.0,0.6093257022340525,False
+VT,Vermont,Class III,False,Johenry Nunes,IND,Independent,None,1021.0,0.4341392477187492,False
+VT,Vermont,Class III,False,None,W,Write-In,None,113.0,0.0480487120393914,False
+WA,Washington,Class III,False,Patty Murray,DEM,Democratic,None,1314930.0,52.3648258488133,True
+WA,Washington,Class III,False,Dino Rossi,REP,Republican,None,1196164.0,47.635174151186696,False
+WI,Wisconsin,Class III,False,Ron Johnson,REP,Republican,None,1125999.0,51.85754728321016,True
+WI,Wisconsin,Class III,False,Russ Feingold,DEM,Democratic,None,1020958.0,47.019915434358005,False
+WI,Wisconsin,Class III,False,Robert Taylor,CON,Constitution,None,23473.0,1.0810419968213043,False
+WI,Wisconsin,Class III,False,None,W,Write-In,None,638.0,0.0293828992447489,False
+WI,Wisconsin,Class III,False,"Ernest J. Pagels, Jr.",W,Write-In,None,134.0,0.0061713299354174,False
+WI,Wisconsin,Class III,False,Michael D. LaForest,W,Write-In,None,129.0,0.0059410564303646,False
+WV,West Virginia,Class I,True,"Joe Manchin, III",DEM,Democratic,None,283358.0,53.46901960192321,True
+WV,West Virginia,Class I,True,John Raese,REP,Republican,None,230013.0,43.40293764671251,False
+WV,West Virginia,Class I,True,Jesse Johnson,MTP,Mountain,None,10152.0,1.915659649626001,False
+WV,West Virginia,Class I,True,Jeff C. Becker,CON,Constitution,None,6425.0,1.2123831017382838,False
