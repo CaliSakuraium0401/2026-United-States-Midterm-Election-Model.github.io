@@ -1,0 +1,34 @@
+state_code,state,office_seat_name,special,dem_candidate,rep_candidate,dem_votes,rep_votes,dem_per,rep_per,winner
+AZ,Arizona,Class I,False,Jim Pederson,Jon Kyl,664141.0,814398.0,43.49939939035173,53.340817484094,Republican
+CA,California,Class I,False,Dianne Feinstein,Richard Dick Mountjoy,5076289.0,2990822.0,59.43105149508118,35.015283072855325,Democrat
+CT,Connecticut,Class I,False,Edward Lamont,Alan Schlesinger,450844.0,109198.0,39.72974425812296,9.622859821797586,Democrat
+DE,Delaware,Class I,False,Thomas R. Carper,Jan Ting,170567.0,69734.0,70.20026998995769,28.70042638657953,Democrat
+FL,Florida,Class I,False,Bill Nelson,Katherine Harris,2890548.0,1826127.0,60.30098044574211,38.09563048890443,Democrat
+HI,Hawaii,Class I,False,Daniel K. Akaka,Cynthia Henry Thielen,210330.0,126097.0,61.34895957904808,36.77991611296166,Democrat
+IN,Indiana,Class I,False,None,Richard G. Lugar,0.0,1171553.0,0.0,87.35690036096938,Republican
+MA,Massachusetts,Class I,False,Edward M. Kennedy,Kenneth G. Chase,1500738.0,661532.0,66.88272533408205,29.482203459701807,Democrat
+MD,Maryland,Class I,False,Benjamin L. Cardin,Michael S. Steele,965477.0,787182.0,54.205595408331405,44.19542775718234,Democrat
+ME,Maine,Class I,False,Jean M. Hay Bright,Olympia J. Snowe,113131.0,405596.0,20.75310752703952,74.40380974743547,Republican
+MI,Michigan,Class I,False,Debbie Stabenow,Mike Bouchard,2151278.0,1559597.0,56.909978514034655,41.25763000437549,Democrat
+MN,Minnesota,Class I,False,Amy Klobuchar,Mark R. Kennedy,1278849.0,835653.0,58.05634900025968,37.93642737423573,Democrat
+MO,Missouri,Class I,False,Claire McCaskill,Jim Talent,1055255.0,1006941.0,49.57835692395297,47.30845179540692,Democrat
+MS,Mississippi,Class I,False,Erik R. Fleming,Trent Lott,213000.0,388399.0,34.86539176096418,63.57597790876398,Republican
+MT,Montana,Class I,False,Jon Tester,Conrad Burns,199845.0,196283.0,49.16175692795907,48.28550694333403,Democrat
+ND,North Dakota,Class I,False,Kent Conrad,Dwight Grotberg,150146.0,64417.0,68.82632293080054,29.528493894165532,Democrat
+NE,Nebraska,Class I,False,Ben Nelson,Pete Ricketts,378388.0,213928.0,63.882792293302906,36.1172077066971,Democrat
+NJ,New Jersey,Class I,False,Bob Menendez,Thomas H. Kean Jr.,58333.0,41998.0,57.20435801633765,41.18541182469869,Democrat
+NM,New Mexico,Class I,False,Jeff Bingaman,Allen W. McCulloch MD,394365.0,163826.0,70.60513830453854,29.33058812997941,Democrat
+NV,Nevada,Class I,False,Jack Carter,John Ensign,238796.0,322501.0,40.98995488969604,55.35813599005788,Republican
+NY,New York,Class I,False,Hillary Rodham Clinton,John Spencer,2698931.0,1212902.0,57.41634316406815,25.8029558578506,Democrat
+OH,Ohio,Class I,False,Sherrod Brown,Mike DeWine,2257369.0,1761037.0,56.16413169069943,43.815217618472765,Democrat
+PA,Pennsylvania,Class I,False,Robert P. Casey Jr.,Rick Santorum,2392984.0,1684778.0,58.6365789333756,41.28302495219972,Democrat
+RI,Rhode Island,Class I,False,Sheldon Whitehouse,Lincoln Chafee,206043.0,178950.0,53.51863540376058,46.48136459623941,Democrat
+TN,Tennessee,Class I,False,Harold E. Ford Jr.,Bob Corker,879976.0,929911.0,47.989223944003776,50.71241400560071,Republican
+TX,Texas,Class I,False,Barbara Ann Radnofsky,Kay Bailey Hutchison,1555202.0,2661789.0,36.04457636668264,61.69170106680406,Republican
+UT,Utah,Class I,False,Pete Ashdown,Orrin G. Hatch,177459.0,356238.0,31.064924061535017,62.36091952413295,Republican
+VA,Virginia,Class I,False,Jim Webb,George F. Allen,1175606.0,1166277.0,49.59431667893581,49.20076188226261,Democrat
+VT,Vermont,Class I,False,None,Rich Tarrant,0.0,84924.0,0.0,32.361985984246566,Republican
+WA,Washington,Class I,False,Maria Cantwell,Mike McGavick,1184659.0,832106.0,56.85269808910351,39.9334080069721,Democrat
+WI,Wisconsin,Class I,False,Herb Kohl,Robert Gerald Lorge,1439214.0,630299.0,67.30655283152902,29.476681677054216,Democrat
+WV,West Virginia,Class I,False,Robert C. Byrd,John Raese,159154.0,47408.0,77.04902160126258,22.950978398737423,Democrat
+WY,Wyoming,Class I,False,Dale Groutage,Craig Thomas,57671.0,135174.0,29.86030569132632,69.98902327893298,Republican

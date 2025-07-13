@@ -1,0 +1,36 @@
+state_code,state,office_seat_name,special,dem_candidate,rep_candidate,dem_votes,rep_votes,dem_per,rep_per,winner
+AK,Alaska,Class II,False,Al Gross,Dan Sullivan,146068.0,191112.0,41.19383959366812,53.89706898448053,Republican
+AL,Alabama,Class II,False,Gordon Douglas Jones,Tommy Tuberville,920478.0,1392076.0,39.73666545072299,60.09536164251688,Republican
+AR,Arkansas,Class II,False,None,Tom Cotton,0.0,793871.0,0.0,66.52953544949513,Republican
+AZ,Arizona,Class III,True,Mark Kelly,Martha McSally,1716467.0,1637661.0,51.15662692973571,48.8079367761675,Democrat
+CO,Colorado,Class II,False,John Wright Hickenlooper,Cory Gardner,1731114.0,1429492.0,53.498960068484045,44.17752697177505,Democrat
+DE,Delaware,Class II,False,Christopher A. Coons,Lauren E. Witzke,291804.0,186054.0,59.43841852791103,37.89788872253964,Democrat
+GA,Georgia,Class II,False,Jon Ossoff,David A. Perdue,2269923.0,2214979.0,50.61254404221096,49.38745595778904,Democrat
+GA,Georgia,Class III,True,Raphael Warnock,Kelly Loeffler,2289113.0,2195841.0,51.0398322925943,48.960167707405695,Democrat
+IA,Iowa,Class II,False,Theresa Greenfield,Joni K. Ernst,754859.0,864997.0,45.15171417155353,51.739592828927385,Republican
+ID,Idaho,Class II,False,Paulette E. Jordan,James E. Risch,285864.0,538446.0,33.24668799653884,62.62259733644093,Republican
+IL,Illinois,Class II,False,Richard J. Durbin,Mark C. Curran,3278930.0,2319870.0,54.93356314671662,38.86594868971692,Democrat
+KS,Kansas,Class II,False,Barbara Goolsbee Bollier,Roger Marshall,571530.0,727962.0,41.78599237436529,53.22312841115551,Republican
+KY,Kentucky,Class II,False,Amy McGrath,Mitch McConnell,816257.0,1233315.0,38.2311572946296,57.76496833573999,Republican
+LA,Louisiana,Class II,False,Antoine Pierce,Dustin Murphy,55710.0,38383.0,2.6892997152364204,1.8528700586953784,Democrat
+MA,Massachusetts,Class II,False,Edward J. Markey,Kevin J. O'Connor,2357809.0,1177765.0,66.1537326297313,33.04489503206387,Democrat
+ME,Maine,Class II,False,Sara I. Gideon,Susan M. Collins,347223.0,417645.0,42.38649971984282,50.9831136632474,Republican
+MI,Michigan,Class II,False,Gary C. Peters,John James,2734568.0,2642233.0,49.90342572248217,48.21839437051528,Democrat
+MN,Minnesota,Class II,False,Tina Smith,Jason Lewis,1566522.0,1398145.0,48.736690543628136,43.498246561568216,Democrat
+MS,Mississippi,Class II,False,Mike Espy,Cindy Hyde-Smith,578691.0,709511.0,44.12927401754217,54.105222540976726,Republican
+MT,Montana,Class II,False,Steve Bullock,Steve Daines,272463.0,333174.0,44.98783925024396,55.01216074975604,Republican
+NC,North Carolina,Class II,False,Cal Cunningham,Thomas Roland Tillis,2569965.0,2665598.0,46.94041153237507,48.68714830741895,Republican
+NE,Nebraska,Class II,False,Chris E. Janicek,Ben Sasse,227191.0,583507.0,24.428824574306567,62.74187859941593,Republican
+NH,New Hampshire,Class II,False,Jeanne Shaheen,Bryant Messner,450778.0,326229.0,56.63652103116669,40.98797106220019,Democrat
+NJ,New Jersey,Class II,False,Cory A. Booker,Rikin Mehta,2541178.0,1817052.0,57.22806748880741,40.920539406004806,Democrat
+NM,New Mexico,Class II,False,Ben Ray Luján,Mark V. Ronchetti,474483.0,418483.0,51.72959660371311,45.62430429649044,Democrat
+OK,Oklahoma,Class II,False,Abby Broyles,James M. Inhofe,509763.0,979140.0,32.7535192670595,62.9121392787406,Republican
+OR,Oregon,Class II,False,Jeff Merkley,Jo Rae Perkins,1321047.0,912814.0,56.9110422880096,39.32426034432325,Democrat
+RI,Rhode Island,Class II,False,Jack Reed,Allen R. Waters,328574.0,164855.0,66.47769806297065,33.353767839728725,Democrat
+SC,South Carolina,Class II,False,Jaime Harrison,Lindsey Graham,1110828.0,1369137.0,44.16628497270888,54.4365958624375,Republican
+SD,South Dakota,Class II,False,Daniel P. Ahlers,M. Michael Rounds,143987.0,276232.0,34.26475242671083,65.73524757328917,Republican
+TN,Tennessee,Class II,False,Marquita Bradshaw,Bill Hagerty,1040691.0,1840926.0,35.16131876864382,62.19846805198122,Republican
+TX,Texas,Class II,False,Mary Jennings Hegar,John Cornyn,4888764.0,5962983.0,43.86886622804656,53.50826989134999,Republican
+VA,Virginia,Class II,False,Mark R. Warner,Daniel M. Gade,2466500.0,1934199.0,55.99208369777941,43.90830419467312,Democrat
+WV,West Virginia,Class II,False,Paula Jean Swearengin,Shelley Moore Capito,210309.0,547454.0,27.000146356869404,70.28390664999397,Republican
+WY,Wyoming,Class II,False,Merav Ben-David,Cynthia M. Lummis,72766.0,198100.0,26.75840360083402,72.84775517858915,Republican

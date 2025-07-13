@@ -1,0 +1,34 @@
+state_code,state,office_seat_name,special,dem_candidate,rep_candidate,dem_votes,rep_votes,dem_per,rep_per,winner
+AZ,Arizona,Class I,False,Richard Carmona,Jeff Flake,1036542.0,1104457.0,46.20361216035146,49.23090706964628,Republican
+CA,California,Class I,False,Dianne Feinstein,Elizabeth Emken,7864624.0,4713887.0,62.5242844721446,37.4757155278554,Democrat
+CT,Connecticut,Class I,False,Christopher S. Murphy,Linda McMahon,792983.0,604569.0,52.454152896880736,39.99096419811558,Democrat
+DE,Delaware,Class I,False,Thomas R. Carper,Kevin Wade,265415.0,115700.0,66.41917288529201,28.95351921642818,Democrat
+FL,Florida,Class I,False,Bill Nelson,Connie Mack,4523451.0,3458267.0,55.23175610681682,42.22576070709136,Democrat
+HI,Hawaii,Class I,False,Mazie K. Hirono,Linda Lingle,269489.0,160994.0,62.6015429180711,37.3984570819289,Democrat
+IN,Indiana,Class I,False,Joe Donnelly,Richard Mourdock,1281181.0,1133621.0,50.044138866342045,44.28030601905705,Democrat
+MA,Massachusetts,Class I,False,Elizabeth Ann Warren,Scott Brown,1696346.0,1458048.0,53.273919067796086,45.79014608397222,Democrat
+MD,Maryland,Class I,False,Benjamin L. Cardin,Daniel J. Bongino,1474028.0,693291.0,55.97785840529175,26.32849948010697,Democrat
+ME,Maine,Class I,False,Cynthia Dill,Charlie Summers,92900.0,215399.0,13.260081730062415,30.74497679842535,Republican
+MI,Michigan,Class I,False,Debbie Stabenow,Pete Hoekstra,2735826.0,1767386.0,58.79807037218365,37.98446480251748,Democrat
+MN,Minnesota,Class I,False,Amy Klobuchar,Kurt Patrick Bills,1854595.0,867974.0,65.22898262419866,30.52799180643548,Democrat
+MO,Missouri,Class I,False,Claire McCaskill,Todd Akin,1494125.0,1066159.0,54.81432375826044,39.113718466515984,Democrat
+MS,Mississippi,Class I,False,Albert N. Gore,Roger F. Wicker,503467.0,709626.0,40.55090015206578,57.15562901105699,Republican
+MT,Montana,Class I,False,Jon Tester,Denny Rehberg,236123.0,218051.0,48.578382359597256,44.86036875650632,Democrat
+ND,North Dakota,Class I,False,Heidi Heitkamp,Rick Berg,161337.0,158401.0,50.23821089604663,49.32397927409511,Democrat
+NE,Nebraska,Class I,False,Bob Kerrey,Deb Fischer,332979.0,455593.0,42.22556722784984,57.77443277215016,Republican
+NJ,New Jersey,Class I,False,Bob Menendez,Joe Kyrillos,1987680.0,1329534.0,58.86546099402099,39.3743619783993,Democrat
+NM,New Mexico,Class I,False,Martin Heinrich,Heather A. Wilson,395717.0,351260.0,51.00806529576833,45.27754181850055,Democrat
+NV,Nevada,Class I,False,Shelley Berkley,Dean Heller,446080.0,457656.0,44.706129955251775,45.86627647686672,Republican
+NY,New York,Class I,False,Kirsten E. Gillibrand,Wendy E. Long,4420043.0,1514647.0,62.10867000495178,21.28321165585724,Democrat
+OH,Ohio,Class I,False,Sherrod Brown,Josh Mandel,2762690.0,2435712.0,50.70069506101833,44.70001750774176,Democrat
+PA,Pennsylvania,Class I,False,Robert P. Casey Jr.,Tom Smith,3021364.0,2509132.0,53.69002004825656,44.58759268453655,Democrat
+RI,Rhode Island,Class I,False,Sheldon Whitehouse,Barry Hinckley,271034.0,146222.0,64.81136519611945,34.9655299398119,Democrat
+TN,Tennessee,Class I,False,Mark E. Clayton,Bob Corker,705882.0,1506443.0,30.406590287131856,64.89157549267127,Republican
+TX,Texas,Class I,False,Paul Sadler,Ted Cruz,3194927.0,4440137.0,40.6230045638668,56.45565786485696,Republican
+UT,Utah,Class I,False,Scott N. Howell,Orrin G. Hatch,301873.0,657608.0,29.980405223552264,65.31009503416921,Republican
+VA,Virginia,Class I,False,Timothy Michael Kaine,George F. Allen,2010067.0,1785542.0,52.86594904628799,46.96080896408287,Democrat
+VT,Vermont,Class I,False,None,John MacGovern,0.0,72898.0,0.0,24.90008949248878,Republican
+WA,Washington,Class I,False,Maria Cantwell,Michael Baumgartner,1855493.0,1213924.0,60.45099118171301,39.54900881828699,Democrat
+WI,Wisconsin,Class I,False,Tammy Baldwin,Tommy Thompson,1547104.0,1380126.0,51.40886372781917,45.86033612557407,Democrat
+WV,West Virginia,Class I,False,"Joe Manchin, III",John Raese,399898.0,240787.0,60.57206733696656,36.47171623230466,Democrat
+WY,Wyoming,Class I,False,Tim Chesnut,John Barrasso,53019.0,185250.0,21.65260432406825,75.65485865507918,Republican

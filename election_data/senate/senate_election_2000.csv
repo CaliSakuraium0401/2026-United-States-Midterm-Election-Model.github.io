@@ -1,0 +1,35 @@
+state_code,state,office_seat_name,special,dem_candidate,rep_candidate,dem_votes,rep_votes,dem_per,rep_per,winner
+AZ,Arizona,Class I,False,None,Jon Kyl,0.0,1108196.0,0.0,79.32252790828845,Republican
+CA,California,Class I,False,Dianne Feinstein,Tom Campbell,5932522.0,3886853.0,55.84281724250367,36.58693920182296,Democrat
+CT,Connecticut,Class I,False,Joseph I. Lieberman,Phil Giordano,828902.0,448077.0,63.21411221717111,34.17145785621627,Democrat
+DE,Delaware,Class I,False,Thomas R. Carper,William V. Roth Jr.,181566.0,142891.0,55.525959271299385,43.69848895847923,Democrat
+FL,Florida,Class I,False,Bill Nelson,Bill McCollum,2989487.0,2705348.0,51.04361118856235,46.19211638711083,Democrat
+GA,Georgia,Class III,True,Zell Bryan Miller,Ben Ballenger,1413224.0,22975.0,58.50059381316638,0.9510531542469542,Democrat
+HI,Hawaii,Class I,False,Daniel K. Akaka,John Stanley Carroll,251215.0,84701.0,72.68468822966064,24.50676025611721,Democrat
+IN,Indiana,Class I,False,David L. Johnson,Richard G. Lugar,683273.0,1427944.0,31.851115672179255,66.56433009557577,Republican
+MA,Massachusetts,Class I,False,Edward M. Kennedy,Jack E. Robinson,1889494.0,334341.0,69.11082126374265,12.228978283149342,Democrat
+MD,Maryland,Class I,False,Paul S. Sarbanes,Paul H. Rappaport,1230013.0,715178.0,63.17809150761878,36.73423055547851,Democrat
+ME,Maine,Class I,False,Mark W. Lawrence,Olympia J. Snowe,197183.0,437689.0,31.05870159654229,68.94129840345771,Republican
+MI,Michigan,Class I,False,Debbie Stabenow,Spencer Abraham,2061952.0,1994693.0,49.474756369543286,47.86093478753792,Democrat
+MN,Minnesota,Class I,False,Mark Dayton,Rod Grams,1181553.0,1047474.0,48.83419025261209,43.29263655601111,Democrat
+MO,Missouri,Class I,False,Mel Carnahan,John Ashcroft,1191812.0,1142852.0,50.46659321320502,48.3934101912867,Democrat
+MS,Mississippi,Class I,False,Troy Brown,Trent Lott,314090.0,654941.0,31.59401454920012,65.8798926513664,Republican
+MT,Montana,Class I,False,Brian Schweitzer,Conrad Burns,194430.0,208082.0,47.23749456391019,50.55429894485193,Republican
+ND,North Dakota,Class I,False,Kent Conrad,Duane Sand,176470.0,111069.0,61.37254424617182,38.62745575382818,Democrat
+NE,Nebraska,Class I,False,Ben Nelson,Don Stenberg,353093.0,337977.0,50.99920560410197,48.815916805084136,Democrat
+NJ,New Jersey,Class I,False,Jon Stevens Corzine,Bob Franks,1511237.0,1420267.0,50.11294369196549,47.09635894208304,Democrat
+NM,New Mexico,Class I,False,Jeff Bingaman,Bill Redmond,363744.0,225517.0,61.70109545634968,38.25395317594136,Democrat
+NV,Nevada,Class I,False,Ed Bernstein,John Ensign,238260.0,330687.0,39.69346105789254,55.09154518950437,Republican
+NY,New York,Class I,False,Hillary Rodham Clinton,Rick Lazio,3562415.0,2724589.0,51.18660934970693,39.14829484535312,Democrat
+OH,Ohio,Class I,False,Ted Celeste,Mike DeWine,1595066.0,2665512.0,35.853840169519835,59.91528953531524,Republican
+PA,Pennsylvania,Class I,False,Ron Klink,Rick Santorum,2154908.0,2481962.0,45.50908573306335,52.41607597364035,Republican
+RI,Rhode Island,Class I,False,Robert A. Weygand,Lincoln Chafee,161023.0,222588.0,41.1452065015472,56.87652835164161,Republican
+TN,Tennessee,Class I,False,Jeff Clark,Bill Frist,621152.0,1255444.0,32.20718723766769,65.09569312246677,Republican
+TX,Texas,Class I,False,Gene Kelly,Kay Bailey Hutchison,2025024.0,4078954.0,32.30752442100816,65.07621932736053,Republican
+UT,Utah,Class I,False,Scott N. Howell,Orrin G. Hatch,242569.0,504803.0,31.51458222901271,65.58404269693284,Republican
+VA,Virginia,Class I,False,Charles S. Robb,George F. Allen,1296093.0,1420460.0,47.68026057452799,52.255434552685664,Republican
+VT,Vermont,Class I,False,Ed Flanagan,James M. Jeffords,73352.0,189133.0,25.42530329289428,65.55736568457539,Republican
+WA,Washington,Class I,False,Maria Cantwell,Slade Gorton,1199437.0,1197208.0,48.73028493377087,48.6397259422462,Democrat
+WI,Wisconsin,Class I,False,Herb Kohl,John Gillespie,1563238.0,940744.0,61.5427921056123,37.035955124301054,Democrat
+WV,West Virginia,Class I,False,Robert C. Byrd,David T. Gallaher,469215.0,121635.0,77.75192757967578,20.15569773164512,Democrat
+WY,Wyoming,Class I,False,Mel Logan,Craig Thomas,47087.0,157622.0,22.03838827290215,73.772693872011,Republican

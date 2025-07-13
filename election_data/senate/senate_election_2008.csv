@@ -1,0 +1,36 @@
+state_code,state,office_seat_name,special,dem_candidate,rep_candidate,dem_votes,rep_votes,dem_per,rep_per,winner
+AK,Alaska,Class II,False,Mark Begich,Ted Stevens,151767.0,147814.0,47.767080129546805,46.5229146143024,Democrat
+AL,Alabama,Class II,False,Vivian Davis Figures,Jeff Sessions,752391.0,1305383.0,36.52044883217139,63.36223194839702,Republican
+AR,Arkansas,Class II,False,Mark L. Pryor,None,804678.0,0.0,79.53296947677005,0.0,Democrat
+CO,Colorado,Class II,False,Mark Udall,Bob Schaffer,1230994.0,990755.0,52.795630164593646,42.49211171112287,Democrat
+DE,Delaware,Class II,False,Joe Biden,Christine O'Donnell,257539.0,140595.0,64.68651258119125,35.31348741880874,Democrat
+GA,Georgia,Class II,False,Jim Martin,Saxby Chambliss,909923.0,1228033.0,42.56041752028573,57.43958247971427,Republican
+IA,Iowa,Class II,False,Tom Harkin,Christopher Reed,941665.0,560006.0,62.65578028874496,37.26124778597368,Democrat
+ID,Idaho,Class II,False,Larry LaRocco,James E. Risch,219903.0,371744.0,34.105121126585814,57.6543937467043,Republican
+IL,Illinois,Class II,False,Richard J. Durbin,Steve Sauerberg,3615844.0,1520621.0,67.84095113514665,28.5300955893224,Democrat
+KS,Kansas,Class II,False,Jim Slattery,Pat Roberts,441399.0,727121.0,36.45846583353294,60.05839645161024,Republican
+KY,Kentucky,Class II,False,Bruce Lunsford,Mitch McConnell,847005.0,953816.0,47.03438042981507,52.96561957018493,Republican
+LA,Louisiana,Class II,False,Mary L. Landrieu,John Kennedy,988298.0,867177.0,52.10964613033818,45.72334114039315,Democrat
+MA,Massachusetts,Class II,False,John Kerry,Jeffrey K. Beatty,1971974.0,926044.0,63.55066637232738,29.84355437246918,Democrat
+ME,Maine,Class II,False,Thomas H. Allen,Susan M. Collins,279510.0,444300.0,38.58343801333462,61.3309774581395,Republican
+MI,Michigan,Class II,False,Carl Levin,Jacob W. Hoogendyk Jr.,3038386.0,1641070.0,62.66496446411556,33.846125289257564,Democrat
+MN,Minnesota,Class II,False,Al Franken,Norm Coleman,1212629.0,1212317.0,41.99368620668877,41.98288155819654,Democrat
+MS,Mississippi,Class I,True,None,Roger F. Wicker,0.0,683409.0,0.0,54.95969755676239,Republican
+MS,Mississippi,Class II,False,Erik R. Fleming,Thad Cochran,480915.0,766111.0,38.56495373793329,61.43504626206671,Republican
+MT,Montana,Class II,False,Max Baucus,Bob Kelleher,348289.0,129369.0,72.91597754041594,27.08402245958405,Democrat
+NC,North Carolina,Class II,False,Kay R. Hagan,Elizabeth H. Dole,2249311.0,1887510.0,52.652780801363306,44.183596794921314,Democrat
+NE,Nebraska,Class II,False,Scott Kleeb,Mike Johanns,317456.0,455854.0,40.05698343619205,57.52021107593459,Republican
+NH,New Hampshire,Class II,False,Jeanne Shaheen,John E. Sununu,358438.0,314403.0,51.58962387033724,45.251710236374606,Democrat
+NJ,New Jersey,Class II,False,Frank R. Lautenberg,Dick Zimmer,1951218.0,1461025.0,56.0301167714063,41.95400070927179,Democrat
+NM,New Mexico,Class II,False,Tom Udall,Stevan Pearce,505128.0,318522.0,61.32799125842288,38.67200874157712,Democrat
+OK,Oklahoma,Class II,False,Andrew Rice,James M. Inhofe,527736.0,763375.0,39.18388439723526,56.67985081885539,Republican
+OR,Oregon,Class II,False,Jeff Merkley,Gordon H. Smith,864392.0,805159.0,48.9046700884411,45.55344712091175,Democrat
+RI,Rhode Island,Class II,False,Jack Reed,Robert G. Tingle,320644.0,116174.0,73.07092786888234,26.47466340938716,Democrat
+SC,South Carolina,Class II,False,Bob Conley,Lindsey Graham,790621.0,1076534.0,42.2468688399412,57.524642906951954,Republican
+SD,South Dakota,Class II,False,Tim Johnson,Joel D. Dykstra,237889.0,142784.0,62.49169234487341,37.50830765512658,Democrat
+TN,Tennessee,Class II,False,Robert D. Tuke,Lamar Alexander,767236.0,1579477.0,31.644013305369786,65.14422055733249,Republican
+TX,Texas,Class II,False,Rick Noriega,John Cornyn,3389365.0,4337469.0,42.83787754792516,54.82087821462764,Republican
+VA,Virginia,Class II,False,Mark R. Warner,James S. Gilmore III,2369327.0,1228830.0,65.03255021417431,33.728543455455416,Democrat
+WV,West Virginia,Class II,False,"John D. Rockefeller, IV",Jay Wolfe,447560.0,254629.0,63.72702574938632,36.25603011784004,Democrat
+WY,Wyoming,Class I,True,Nicholas H. Carter,John Barrasso,66202.0,183063.0,26.52770097532437,73.35489144808021,Republican
+WY,Wyoming,Class II,False,Christopher Rothfuss,Michael B. Enzi,60631.0,189046.0,24.257639650164435,75.63473710321429,Republican

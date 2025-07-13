@@ -1,0 +1,36 @@
+state_code,state,office_seat_name,special,dem_candidate,rep_candidate,dem_votes,rep_votes,dem_per,rep_per,winner
+AZ,Arizona,Class I,False,Ruben Gallego,Kari Lake,1676335.0,1595761.0,50.05757262123248,47.65152677933143,Democrat
+CA,California,Class I,False,Adam B. Schiff,Steve Garvey,9036252.0,6312594.0,58.872517191194696,41.1274828088053,Democrat
+CA,California,Class I,True,Adam B. Schiff,Steve Garvey,8837051.0,6204637.0,58.750394237668,41.249605762332,Democrat
+CT,Connecticut,Class I,False,Christopher S. Murphy,Matthew M. Corey,953646.0,678256.0,55.82560958262184,39.70451787463142,Democrat
+DE,Delaware,Class I,False,Lisa Blunt Rochester,Eric Hansen,283298.0,197753.0,56.591011693827085,39.502722700087496,Democrat
+FL,Florida,Class I,False,Debbie Mucarsel-Powell,Rick Scott,4603077.0,5977706.0,42.789754205187336,55.56817112789414,Republican
+HI,Hawaii,Class I,False,Mazie K. Hirono,Bob McDermott,324194.0,160075.0,64.61098167860125,31.902511743592093,Democrat
+IN,Indiana,Class I,False,Valerie McCray,Jim Banks,1097061.0,1659416.0,38.76681730819178,58.63874197541465,Republican
+MA,Massachusetts,Class I,False,Elizabeth Ann Warren,John Deaton,2041693.0,1365445.0,59.81477483030645,40.00297068078687,Democrat
+MD,Maryland,Class I,False,Angela Alsobrooks,Larry Hogan,1650912.0,1294344.0,54.64102803422809,42.83952554099487,Democrat
+ME,Maine,Class I,False,David Allen Costello,Demi Kouzounas,88891.0,284338.0,10.830037695758437,34.642328900974924,Republican
+MI,Michigan,Class I,False,Elissa Slotkin,Mike Rogers,2712686.0,2693680.0,48.638964409836,48.29818329562914,Democrat
+MN,Minnesota,Class I,False,Amy Klobuchar,Royce White,1792441.0,1291712.0,56.201300401370446,40.501134566803046,Democrat
+MO,Missouri,Class I,False,Lucas Kunce,Josh Hawley,1243728.0,1651907.0,41.84031334617749,55.57188267751793,Republican
+MS,Mississippi,Class I,False,Ty Pinkins,Roger F. Wicker,451981.0,763420.0,37.18780879726115,62.81219120273885,Republican
+MT,Montana,Class I,False,Jon Tester,Tim Sheehy,276305.0,319682.0,45.5001300921184,52.6431754333385,Republican
+ND,North Dakota,Class I,False,Katrina Christiansen,Kevin Cramer,121602.0,241569.0,33.377158431848315,66.3055441951873,Republican
+NE,Nebraska,Class I,False,Dan Osborn,Deb Fischer,436493.0,499124.0,46.51777188555059,53.19245984380861,Republican
+NE,Nebraska,Class II,True,Preston Love Jr.,Pete Ricketts,349902.0,585103.0,37.42247367661136,62.577526323388646,Republican
+NJ,New Jersey,Class I,False,Andy Kim,Curtis Bashaw,2161491.0,1773589.0,53.61113350257144,43.99005901837767,Democrat
+NM,New Mexico,Class I,False,Martin Heinrich,Nella Louise Domenici,497333.0,405978.0,55.05667483292023,44.94332516707978,Democrat
+NV,Nevada,Class I,False,Jacky S. Rosen,Sam Brown,701105.0,677046.0,47.86588363163673,46.22332610559776,Democrat
+NY,New York,Class I,False,Kirsten E. Gillibrand,Michael D. Sapraicone,4318903.0,2917044.0,53.9167551046981,36.41608690392653,Democrat
+OH,Ohio,Class I,False,Sherrod Brown,Bernie Moreno,2650949.0,2857383.0,46.470211863366885,50.08892792157936,Republican
+PA,Pennsylvania,Class I,False,Robert P. Casey Jr.,Dave McCormick,3384180.0,3399295.0,48.60137033064264,48.8184420326643,Republican
+RI,Rhode Island,Class I,False,Sheldon Whitehouse,Patricia Morgan,294665.0,196039.0,59.89759080227992,39.84953694292893,Democrat
+TN,Tennessee,Class I,False,Gloria Johnson,Marsha Blackburn,1027461.0,1918743.0,34.16206500315201,63.79631255136973,Republican
+TX,Texas,Class I,False,Colin Allred,Ted Cruz,5031249.0,5990741.0,44.55644750631739,53.05365265969609,Republican
+UT,Utah,Class I,False,Caroline Gleich,John Curtis,464515.0,914700.0,31.73981164447913,62.50046976137489,Republican
+VA,Virginia,Class I,False,Timothy Michael Kaine,Hung Cao,2415429.0,2018992.0,54.36572655047597,45.44284554818154,Democrat
+VT,Vermont,Class I,False,None,Gerald Malloy,0.0,116512.0,0.0,32.07461466250795,Republican
+WA,Washington,Class I,False,Maria Cantwell,Raul Garcia,2252577.0,1549187.0,59.085676154413335,40.63557489250185,Democrat
+WI,Wisconsin,Class I,False,Tammy Baldwin,Eric D. Hovde,1672777.0,1643996.0,49.33300145364483,48.484201455296365,Democrat
+WV,West Virginia,Class I,False,Glenn Elliott,Jim Justice,207548.0,514079.0,27.757560681380788,68.75315125909937,Republican
+WY,Wyoming,Class I,False,Scott D. Morrow,John Barrasso,63727.0,198418.0,24.124211657997744,75.11224173045328,Republican

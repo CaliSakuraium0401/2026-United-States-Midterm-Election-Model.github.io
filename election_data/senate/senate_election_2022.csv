@@ -1,0 +1,37 @@
+state_code,state,office_seat_name,special,dem_candidate,rep_candidate,dem_votes,rep_votes,dem_per,rep_per,winner
+AK,Alaska,Class III,False,Patricia R. Chesbro,Lisa Murkowski,28233.0,115759.0,10.733879031430234,44.48795747935266,Republican
+AL,Alabama,Class III,False,Will Boyd,Katie Britt,436746.0,942154.0,30.882072183041327,66.6191970516985,Republican
+AR,Arkansas,Class III,False,Natalie James,John Boozman,280187.0,592437.0,31.08677851917107,65.73095042083376,Republican
+AZ,Arizona,Class III,False,Mark Kelly,Blake Masters,1322027.0,1196308.0,51.39486388414388,46.50743655274241,Democrat
+CA,California,Class III,False,Alex Padilla,Mark P. Meuser,6621616.0,4222025.0,61.064507760815765,38.93549223918424,Democrat
+CA,California,Class III,True,Alex Padilla,Mark P. Meuser,6559303.0,4212446.0,60.89357447894488,39.10642552105512,Democrat
+CO,Colorado,Class III,False,Michael Bennet,Joe O'Dea,1397170.0,1031693.0,55.88389403751005,41.26557419014211,Democrat
+CT,Connecticut,Class III,False,Richard Blumenthal,Leora R. Levy,701175.0,535943.0,55.65380069799911,42.538973733358624,Democrat
+FL,Florida,Class III,False,Val Demings,Marco Rubio,3201522.0,4474847.0,41.26728825186446,57.680316122141576,Republican
+GA,Georgia,Class III,False,Raphael Warnock,Herschel Junior Walker,1820633.0,1721244.0,51.40305549853933,48.59694450146066,Democrat
+HI,Hawaii,Class III,False,Brian Schatz,Bob McDermott,290894.0,106358.0,71.2073181777013,26.035146640164303,Democrat
+IA,Iowa,Class III,False,Michael Franken,Chuck Grassley,533330.0,681501.0,43.83608707873943,56.01473230504189,Republican
+ID,Idaho,Class III,False,David Roth,Mike Crapo,169808.0,358539.0,28.73766690923861,60.67779112863646,Republican
+IL,Illinois,Class III,False,Tammy Duckworth,Kathy Salvi,2329136.0,1701055.0,56.82349588767317,41.50032106206159,Democrat
+IN,Indiana,Class III,False,Thomas McDermott,Todd Young,704480.0,1090390.0,37.87213316746893,58.61826493935448,Republican
+KS,Kansas,Class III,False,Mark R. Holland,Jerry Moran,372214.0,602976.0,37.03784046266702,60.000238816425785,Republican
+KY,Kentucky,Class III,False,Charles Booker,Rand Paul,564311.0,913326.0,38.18510924801905,61.801831063112814,Republican
+LA,Louisiana,Class III,False,Gary Chambers,John Kennedy,246933.0,851568.0,17.85113750551222,61.56106094889719,Republican
+MD,Maryland,Class III,False,Chris Van Hollen,Chris Chaffee,1316897.0,682293.0,65.76803293752896,34.074850574528945,Democrat
+MO,Missouri,Class III,False,Trudy Busch Valentine,Eric Schmitt,872694.0,1146966.0,42.17685693987328,55.43228313349089,Republican
+NC,North Carolina,Class III,False,Cheri Beasley,Ted Budd,1784049.0,1905786.0,47.27305054367815,50.49879117862469,Republican
+ND,North Dakota,Class III,False,Katrina Christiansen,John Hoeven,59995.0,135474.0,24.98334304988757,56.41459148829849,Republican
+NH,New Hampshire,Class III,False,Maggie Hassan,Donald C. Bolduc,332193.0,275928.0,53.49539031361971,44.43463907564717,Democrat
+NV,Nevada,Class III,False,Catherine Cortez Masto,Adam Paul Laxalt,498316.0,490388.0,48.81383161091247,48.03722388205907,Democrat
+NY,New York,Class III,False,Charles E. Schumer,Joe Pinion,3022822.0,2204499.0,51.648271475062735,37.66631406629445,Democrat
+OH,Ohio,Class III,False,Tim Ryan,JD Vance,1939489.0,2192114.0,46.9230225807591,53.03490492681225,Republican
+OK,Oklahoma,Class II,True,Kendra Horn,Markwayne Mullin,405389.0,710643.0,35.23647935081066,61.76920783567916,Republican
+OK,Oklahoma,Class III,False,Madison Horn,James Lankford,369370.0,739960.0,32.098698915125325,64.30341730307318,Republican
+OR,Oregon,Class III,False,Ron Wyden,Jo Rae Perkins,1076424.0,788991.0,55.83259723156577,40.923852238829966,Democrat
+PA,Pennsylvania,Class III,False,John Fetterman,Mehmet Oz,2751012.0,2487260.0,51.248160169269084,46.3347665741248,Democrat
+SC,South Carolina,Class III,False,Krystle Matthews,Tim Scott,627616.0,1066274.0,37.012163693856586,62.88097790767482,Republican
+SD,South Dakota,Class III,False,Brian L. Bengs,John R. Thune,91007.0,242316.0,26.149933911844148,69.627032929142,Republican
+UT,Utah,Class III,False,None,Mike Lee,0.0,571974.0,0.0,53.154075764728624,Republican
+VT,Vermont,Class III,False,Peter Welch,Gerald Malloy,196575.0,80468.0,68.46917450365726,28.027864855451064,Democrat
+WA,Washington,Class III,False,Patty Murray,Tiffany Smiley,1741827.0,1299322.0,57.14843006660324,42.63007316513009,Democrat
+WI,Wisconsin,Class III,False,Mandela Barnes,Ron Johnson,1310467.0,1337185.0,49.40540483480159,50.41268972360552,Republican

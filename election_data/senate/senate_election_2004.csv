@@ -1,0 +1,35 @@
+state_code,state,office_seat_name,special,dem_candidate,rep_candidate,dem_votes,rep_votes,dem_per,rep_per,winner
+AK,Alaska,Class III,False,Tony Knowles,Lisa Murkowski,140424.0,149773.0,45.545627037283296,48.577915443620974,Republican
+AL,Alabama,Class III,False,Wayne Sowell,Richard C. Shelby,595018.0,1242200.0,32.354358136140846,67.54515607378963,Republican
+AR,Arkansas,Class III,False,Blanche Lincoln,Jim Holt,580973.0,458036.0,55.897778320852765,44.06950889450993,Democrat
+AZ,Arizona,Class III,False,Stuart Starky,John McCain,404507.0,1505372.0,20.620469119024182,76.73903501952665,Republican
+CA,California,Class III,False,Barbara Boxer,Bill Jones,6955728.0,4555922.0,57.70810388362684,37.79814565228844,Democrat
+CO,Colorado,Class III,False,Ken Salazar,Pete Coors,1081188.0,980668.0,51.30260330860861,46.53290767326921,Democrat
+CT,Connecticut,Class III,False,Christopher J. Dodd,Jack C. Orchulli,945347.0,457749.0,66.35289873280897,32.12891461235353,Democrat
+FL,Florida,Class III,False,Betty Castor,Mel Martinez,3590201.0,3672864.0,48.32102584505243,49.43359891810032,Republican
+GA,Georgia,Class III,False,Denise Majette,Johnny Isakson,1287690.0,1864202.0,39.9781929790955,57.87683938526803,Republican
+HI,Hawaii,Class III,False,Daniel K. Inouye,Cam Cavasso,313629.0,87172.0,75.51011563824946,20.987752409431156,Democrat
+IA,Iowa,Class III,False,Art Small,Chuck Grassley,412365.0,1038175.0,27.877041267471952,70.18356872638971,Republican
+ID,Idaho,Class III,False,None,Mike Crapo,0.0,499796.0,0.0,99.17925434384004,Republican
+IL,Illinois,Class III,False,Barack Obama,Alan Keyes,3597456.0,1390690.0,69.96872520188583,27.048226983460143,Democrat
+IN,Indiana,Class III,False,Evan Bayh,Marvin Bailey Scott,1496976.0,903913.0,61.648779173991954,37.22513449080051,Democrat
+KS,Kansas,Class III,False,Lee Jones,Sam Brownback,310337.0,780863.0,27.4872411697912,69.1627798218281,Republican
+KY,Kentucky,Class III,False,Daniel Mongiardo,Jim Bunning,850855.0,873507.0,49.34317736067021,50.65682263932979,Republican
+LA,Louisiana,Class III,False,Chris John,David Vitter,542150.0,943014.0,29.33623223538681,51.02734982056821,Republican
+MD,Maryland,Class III,False,Barbara A. Mikulski,E. J. Pipkin,1504691.0,783055.0,64.80343300468446,33.72430102358769,Democrat
+MO,Missouri,Class III,False,Nancy Farmer,Christopher S. Bond,1158261.0,1518089.0,42.797078926190565,56.09251692837945,Republican
+NC,North Carolina,Class III,False,Erskine Bowles,Richard Burr,1632527.0,1791450.0,47.01867640222783,51.595843646549824,Republican
+ND,North Dakota,Class III,False,Byron L. Dorgan,Mike Liffrig,212143.0,98553.0,68.27992635888457,31.72007364111543,Democrat
+NH,New Hampshire,Class III,False,Doris R. Haddock,Judd Gregg,221549.0,434847.0,33.716895505306766,66.17809540912452,Republican
+NV,Nevada,Class III,False,Harry Reid,Richard Ziser,494805.0,284640.0,61.08190917305708,35.137790901504566,Democrat
+NY,New York,Class III,False,Charles E. Schumer,Howard Mills,4384907.0,1625069.0,58.87505575458477,21.81939730535843,Democrat
+OH,Ohio,Class III,False,Eric D. Fingerhut,George V. Voinovich,1961171.0,3464356.0,36.145134111451846,63.84941049496086,Republican
+OK,Oklahoma,Class III,False,Brad R. Carson,Tom Coburn,596750.0,763433.0,41.24488715454167,52.76532540436232,Republican
+OR,Oregon,Class III,False,Ron Wyden,Al King,1128728.0,565254.0,63.39209794726348,31.746033528965768,Democrat
+PA,Pennsylvania,Class III,False,Joe Hoeffel,Arlen Specter,2334126.0,2925080.0,41.987442223163626,52.61782247322186,Republican
+SC,South Carolina,Class III,False,Inez Tenenbaum,Jim DeMint,704384.0,857167.0,44.10059722480483,53.66614889235741,Republican
+SD,South Dakota,Class III,False,Tom Daschle,John R. Thune,193340.0,197848.0,49.42380645623077,50.57619354376924,Republican
+UT,Utah,Class III,False,R. Paul Van Dam,Robert F. Bennett,258955.0,626640.0,28.4027218703865,68.73117581378617,Republican
+VT,Vermont,Class III,False,Patrick J. Leahy,Jack McMullen,216972.0,75398.0,70.62706700346345,24.54298065154553,Democrat
+WA,Washington,Class III,False,Patty Murray,George R. Nethercutt,1549708.0,1204584.0,54.98048534564938,42.73618833974125,Democrat
+WI,Wisconsin,Class III,False,Russ Feingold,Tim Michels,1632697.0,1301183.0,55.35048307598323,44.1117412601708,Democrat

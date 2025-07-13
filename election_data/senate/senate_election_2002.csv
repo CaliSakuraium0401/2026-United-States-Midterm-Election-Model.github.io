@@ -1,0 +1,35 @@
+state_code,state,office_seat_name,special,dem_candidate,rep_candidate,dem_votes,rep_votes,dem_per,rep_per,winner
+AK,Alaska,Class II,False,Frank J. Vondersaar,Ted Stevens,24133.0,179438.0,10.513269555822747,78.1701430637601,Republican
+AL,Alabama,Class II,False,Susan Parker,Jeff Sessions,538878.0,792561.0,39.82770433318576,58.57705301388077,Republican
+AR,Arkansas,Class II,False,Mark L. Pryor,Tim Hutchinson,433386.0,370735.0,53.895620186514215,46.10437981348578,Democrat
+CO,Colorado,Class II,False,Tom Strickland,Wayne A. Allard,648130.0,717893.0,45.76924217665361,50.69572242285404,Republican
+DE,Delaware,Class II,False,Joe Biden,Raymond J. Clatworthy,135253.0,94793.0,58.21990926074193,40.80382585638403,Democrat
+GA,Georgia,Class II,False,Max Cleland,Saxby Chambliss,932422.0,1071352.0,45.89585371952408,52.73429270664952,Republican
+IA,Iowa,Class II,False,Tom Harkin,Greg Ganske,554278.0,447892.0,54.17765070986975,43.77899958458569,Democrat
+ID,Idaho,Class II,False,Alan Blinken,Larry E. Craig,132975.0,266215.0,32.54851374637738,65.16189198715439,Republican
+IL,Illinois,Class II,False,Richard J. Durbin,Jim Durkin,2103766.0,1325703.0,60.334267222774926,38.02006452240144,Democrat
+KS,Kansas,Class II,False,None,Pat Roberts,0.0,641075.0,0.0,82.52236596511553,Republican
+KY,Kentucky,Class II,False,Lois Combs Weinberg,Mitch McConnell,399634.0,731679.0,35.32479517162801,64.67520482837199,Republican
+LA,Louisiana,Class II,False,Mary L. Landrieu,Suzanne Haik Terrell,638654.0,596642.0,51.70048312307334,48.29951687692666,Democrat
+MA,Massachusetts,Class II,False,John Kerry,None,1605976.0,0.0,72.33145415869289,0.0,Democrat
+ME,Maine,Class II,False,Chellie Pingree,Susan M. Collins,209858.0,295041.0,41.56435247445528,58.43564752554471,Republican
+MI,Michigan,Class II,False,Carl Levin,Andrew Rocky Raczkowski,1896614.0,1185545.0,60.60850283147566,37.88546720067543,Democrat
+MN,Minnesota,Class II,False,Walter F. Mondale,Norm Coleman,1067246.0,1116697.0,47.33556014954057,49.52886027430555,Republican
+MO,Missouri,Class I,True,Jean Carnahan,Jim Talent,913778.0,935032.0,48.66682289281111,49.79878782714288,Republican
+MS,Mississippi,Class II,False,None,Thad Cochran,0.0,533269.0,0.0,84.57941775906232,Republican
+MT,Montana,Class II,False,Max Baucus,Mike Taylor,204853.0,103611.0,62.73500399648432,31.730248027022974,Democrat
+NC,North Carolina,Class II,False,Erskine Bowles,Elizabeth H. Dole,1047983.0,1248664.0,44.9550249422932,53.56358000515618,Republican
+NE,Nebraska,Class II,False,Charlie Matulka,Chuck Hagel,70290.0,397438.0,14.637132796215043,82.76216793657866,Republican
+NH,New Hampshire,Class II,False,Jeanne Shaheen,John E. Sununu,207478.0,227229.0,46.40164603531372,50.81888020396524,Republican
+NJ,New Jersey,Class II,False,Frank R. Lautenberg,Douglas R. Forrester,1138193.0,928439.0,53.87630620788373,43.94761157320539,Democrat
+NM,New Mexico,Class II,False,Gloria Tristani,Pete V. Domenici,168863.0,314193.0,34.95723063164519,65.0427693683548,Republican
+OK,Oklahoma,Class II,False,David Walters,James M. Inhofe,369789.0,583579.0,36.30992592476218,57.30216491363126,Republican
+OR,Oregon,Class II,False,Bill Bradbury,Gordon H. Smith,501898.0,712287.0,39.606193394838,56.20858555847797,Republican
+RI,Rhode Island,Class II,False,Jack Reed,Robert G. Tingle,253774.0,69808.0,78.42648849441564,21.573511505584364,Democrat
+SC,South Carolina,Class II,False,Alex Sanders,Lindsey Graham,487359.0,600010.0,44.18838493007602,54.40234579005397,Republican
+SD,South Dakota,Class II,False,Tim Johnson,John R. Thune,167481.0,166949.0,49.62385296636158,49.466223803781325,Democrat
+TN,Tennessee,Class II,False,Bob Clement,Lamar Alexander,728232.0,891498.0,44.33863928613179,54.27914215017729,Republican
+TX,Texas,Class II,False,Ron Kirk,John Cornyn,1955758.0,2496243.0,43.32638016912671,55.29987514432837,Republican
+VA,Virginia,Class II,False,None,John W. Warner,0.0,1229894.0,0.0,82.57525402471563,Republican
+WV,West Virginia,Class II,False,"John D. Rockefeller, IV",Jay Wolfe,275281.0,160902.0,63.11135463784696,36.88864536215304,Democrat
+WY,Wyoming,Class II,False,Joyce  Ann Jansa Corcoran,Michael B. Enzi,49570.0,133710.0,27.046049759930163,72.95395024006984,Republican

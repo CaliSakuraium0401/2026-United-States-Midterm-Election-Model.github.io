@@ -1,0 +1,35 @@
+state_code,state,office_seat_name,special,dem_candidate,rep_candidate,dem_votes,rep_votes,dem_per,rep_per,winner
+AK,Alaska,Class III,False,Joseph A. Sonneman,Frank Murkowski,43743.0,165227.0,19.72119906044444,74.49133706330278,Republican
+AL,Alabama,Class III,False,Clayton Suddith,Richard C. Shelby,474568.0,817973.0,36.69136890610443,63.241830671754016,Republican
+AR,Arkansas,Class III,False,Blanche Lincoln,Fay Boozman,385878.0,295870.0,55.06006440925131,42.217025217206434,Democrat
+AZ,Arizona,Class III,False,Edward Ranger,John McCain,275224.0,696577.0,27.16169272066951,68.7447694615506,Republican
+CA,California,Class III,False,Barbara Boxer,Matt Fong,4410056.0,3575078.0,53.057103034743534,43.01153586331894,Democrat
+CO,Colorado,Class III,False,Dottie Lamm,Ben Nighthorse Campbell,464754.0,829370.0,35.01670766669053,62.48855703775141,Republican
+CT,Connecticut,Class III,False,Christopher J. Dodd,Gary A. Franks,628306.0,312177.0,65.14608738388544,32.36816156656025,Democrat
+FL,Florida,Class III,False,Bob Graham,Charlie Crist,2436407.0,1463755.0,62.469379477057615,37.53062052294239,Democrat
+GA,Georgia,Class III,False,Michael J. Coles,Paul Coverdell,791904.0,918540.0,45.149670487179534,52.36970431932897,Republican
+HI,Hawaii,Class III,False,Daniel K. Inouye,Crystal Young,315252.0,70964.0,79.18437471742472,17.824597361626026,Democrat
+IA,Iowa,Class III,False,David Osterberg,Chuck Grassley,289049.0,648480.0,30.49339228426417,68.41177457282201,Republican
+ID,Idaho,Class III,False,Bill Mauk,Mike Crapo,107375.0,262966.0,28.39301485559557,69.53571636336713,Republican
+IL,Illinois,Class III,False,Carol Moseley-Braun,Peter G. Fitzgerald,1610496.0,1709041.0,47.44398399656388,50.34704454619665,Republican
+IN,Indiana,Class III,False,Evan Bayh,Paul Helmke,1012244.0,552732.0,63.71856778569032,34.79328245889349,Democrat
+KS,Kansas,Class III,False,Paul Feleciano,Sam Brownback,229718.0,474639.0,31.58782018491934,65.26615844100127,Republican
+KY,Kentucky,Class III,False,Scotty Baesler,Jim Bunning,563051.0,569817.0,49.15698603299767,49.747689481707056,Republican
+LA,Louisiana,Class III,False,Sam Houston Melton,Messiah Darryl Paul Ward,9893.0,7964.0,1.0207756161231576,0.8217383004957877,Democrat
+MD,Maryland,Class III,False,Barbara A. Mikulski,Ross Z. Pierpont,1062810.0,444637.0,70.5039712838992,29.496028716100795,Democrat
+MO,Missouri,Class III,False,Jay Nixon,Christopher S. Bond,690208.0,830625.0,43.7711219216454,52.675987740169205,Republican
+NC,North Carolina,Class III,False,John Edwards,Lauch Faircloth,1029237.0,945943.0,51.1512849732847,47.01171835202568,Democrat
+ND,North Dakota,Class III,False,Byron L. Dorgan,Donna L. Nalewaja,134747.0,75013.0,63.15535391220391,35.15827857403988,Democrat
+NH,New Hampshire,Class III,False,George Condodemetraky,Judd Gregg,88883.0,213477.0,28.244083178686736,67.83594325952666,Republican
+NV,Nevada,Class III,False,Harry Reid,John Ensign,208621.0,208220.0,47.86378319842887,47.771782023750525,Democrat
+NY,New York,Class III,False,Charles E. Schumer,Alfonse M. D'Amato,2386314.0,1680203.0,47.82310265363255,33.672232802532,Democrat
+OH,Ohio,Class III,False,Mary Boyle,George V. Voinovich,1482054.0,1922087.0,43.53411266934579,56.459718754029765,Republican
+OK,Oklahoma,Class III,False,Don Carroll,Don Nickles,268898.0,570682.0,31.277647307880653,66.38052466346326,Republican
+OR,Oregon,Class III,False,Ron Wyden,John Lim,682425.0,377739.0,61.05361946844858,33.79467804431594,Democrat
+PA,Pennsylvania,Class III,False,Bill Lloyd,Arlen Specter,1028839.0,1814180.0,34.787467383759044,61.34169445196769,Republican
+SC,South Carolina,Class III,False,Ernest F. Hollings,Bob Inglis,563377.0,488238.0,52.698203941208334,45.66971263620572,Democrat
+SD,South Dakota,Class III,False,Tom Daschle,Ron Schmidt,162884.0,95431.0,62.14313783091896,36.40862077516777,Democrat
+UT,Utah,Class III,False,Scott Leckman,Robert F. Bennett,163172.0,316652.0,32.9701015742288,63.98186333245101,Republican
+VT,Vermont,Class III,False,Patrick J. Leahy,Fred Tuttle,154567.0,48051.0,72.21542170475995,22.44996168868788,Democrat
+WA,Washington,Class III,False,Patty Murray,Linda Smith,1103184.0,785377.0,58.413998806498704,41.586001193501296,Democrat
+WI,Wisconsin,Class III,False,Russ Feingold,Mark W. Neumann,890059.0,852272.0,50.54752401700101,48.40155471605533,Democrat
