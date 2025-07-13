@@ -146,6 +146,6 @@ while year != 2026:
     if len(senate_election_year) >= 1:
         senate_election_year.to_csv(f'election_data/senate/{filename}.csv', index=False)
         print(f"✓ | #{step} Completed {filename}")
-    
+
     year += 1
     step += 1
